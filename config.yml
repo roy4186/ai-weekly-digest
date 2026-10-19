@@ -26,6 +26,43 @@ channels:
     company: google
     # AI以外（Android等）の動画も多いので、タイトルにこの言葉を含むものだけ拾う
     include_keywords: [Gemini, AI, Gemma, Agent, Veo, Imagen, NotebookLM, Jules]
+
+  # --- 日本語の解説チャンネル ---
+  - name: いまにゅのAIプログラミング塾
+    handle: "@imanyu_programming"
+    channel_id: UC0xRMqPOyRNPTaL6BxhbCnQ
+    company: other
+  - name: AI仙人
+    handle: "@AI仙人ch"
+    channel_id: UCRxPq02pjQS_ax60gcTSDHQ
+    company: other
+  - name: IT・AI速報チャンネル【ずんだもん解説】
+    handle: "@zundaITnews"
+    channel_id: UCkRr4i0GaOuFQ7arOIWcpzg
+    company: other
+  - name: ずんだもんのAIラボ
+    handle: "@zundamon_ai_lab"
+    channel_id: UCJTaQeCDqeCKX7q_JhuPIJQ
+    company: other
+  - name: SHIFT AI
+    handle: "@SHIFTAI"
+    channel_id: UC4ljNH-TkMrevjISKcD6V0Q
+    company: other
+  - name: チャエン【AI研究所】
+    handle: "@chaen-ai-lab"
+    channel_id: UC9buL3Iph_f7AZxdzmiBL8Q
+    company: other
+
+  # --- 英語の解説チャンネル（要約は日本語） ---
+  - name: AI Explained
+    handle: "@aiexplained-official"
+    channel_id: UCNJ1Ymd5yFuUPtn21xtRbbw
+    company: other
+  - name: Matt Wolfe
+    handle: "@mreflow"
+    channel_id: UChpleBmo18P08aKCIgti38g
+    company: other
+
   # 追加したいチャンネルはこの下に同じ形で足す
   # （include_keywords は任意。書くとタイトルで絞り込む）
   # - name: 〇〇チャンネル
@@ -62,7 +99,7 @@ gemini:
     - gemini-3.8-flash
     - gemini-3.6-flash
     - gemini-3.5-flash-lite
-  max_videos_per_run: 8    # 1回の実行で要約する最大本数（全体）
+  max_videos_per_run: 10   # 1回の実行で要約する最大本数（全体）
   daily_minutes_budget: 420  # 1日に処理する動画の合計分数（無料枠は1日8時間）
   long_video_min: 90       # これより長い動画はフレームを間引いて処理
   max_attempts: 3          # 失敗がこの回数に達したら諦めて記録だけ残す

@@ -1,7 +1,7 @@
 # AIウィークリー（動画収集係）
 
 AI関連のYouTube動画を毎日集め、Google Gemini に「見て」もらって日本語の要点メモを残す仕組みです。
-週1回、Claude がこのメモを読んで「AIウィークリー」にまとめます。
+毎週土曜の朝、Claude がこのメモを読んで「AIウィークリー」にまとめ、Notion に追加します。
 
 ```
 毎日 05:17（日本時間）  GitHub Actions が自動実行
@@ -9,7 +9,10 @@ AI関連のYouTube動画を毎日集め、Google Gemini に「見て」もらっ
   ├ キーワード検索で話題の動画を発掘（config.yml の discovery）
   └ Gemini が動画を見て要点メモを作成 → notes/ に保存
 
-週1回  Claude が notes/ を読んで、裏取り・整理してお届け
+毎週土曜 09:51  Claude の定期実行
+  ├ notes/ と logs/ を読む
+  ├ 各社の公式発表で裏取り
+  └ Notion のデータベース「AIウィークリー」に1ページ追加（書き方は digest/FORMAT.md）
 ```
 
 PCは一切使いません。PCがスリープしていても動きます。
