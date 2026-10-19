@@ -91,17 +91,21 @@ discovery:
 filters:
   lookback_days: 8         # 何日前までの動画を対象にするか
   min_duration_sec: 180    # 3分未満（ショート動画など）は除外
-  max_duration_min: 240    # 4時間を超える動画は除外
+  max_duration_min: 180    # 3時間を超える動画は除外
 
 # --- Gemini（動画を見る係）の設定 ---------------------------------
 gemini:
   # 上から順に試し、使えなければ次のモデルへ切り替えます
+  # 無料枠の目安（2026年10月）：3.8 Flash は1日20回、3.5 Flash Lite は1日500回
   models:
     - gemini-3.8-flash
     - gemini-3.6-flash
     - gemini-3.5-flash-lite
   max_videos_per_run: 10   # 1回の実行で要約する最大本数（全体）
+  max_run_minutes: 50      # 1回の実行でこの時間を過ぎたら、残りは次回に回す
   daily_minutes_budget: 420  # 1日に処理する動画の合計分数（無料枠は1日8時間）
-  long_video_min: 90       # これより長い動画はフレームを間引いて処理
+  tokens_per_request_limit: 230000  # 1回のリクエストの上限（無料枠は1分25万トークン）
+  min_interval_sec: 13     # リクエストの最小間隔（無料枠は1分5回まで）
+  request_timeout_sec: 600 # 1回のリクエストの待ち時間の上限
   max_attempts: 3          # 失敗がこの回数に達したら諦めて記録だけ残す
   language: 日本語

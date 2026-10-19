@@ -330,30 +330,63 @@ PROMPT = """あなたはAI業界の動画を視聴して要点メモを作る記
 
 class Gemini:
     VARIANTS = ("interactions_full", "interactions_min", "generate_min")
+    AUDIO_TOK_PER_SEC = 32   # 低解像度時の目安（公式ドキュメント）
+    FRAME_TOK = 66           # 低解像度の1フレームあたり
 
     def __init__(self, api_key: str, cfg: dict, state: dict, log: RunLog):
         self.key = api_key
         self.models = list(cfg.get("models") or ["gemini-3.8-flash"])
-        self.long_min = int(cfg.get("long_video_min", 90))
         self.language = cfg.get("language", "日本語")
+        self.tpm_limit = int(cfg.get("tokens_per_request_limit", 230000))
+        self.min_interval = float(cfg.get("min_interval_sec", 13))
+        self.timeout = int(cfg.get("request_timeout_sec", 600))
         self.state = state
         self.log = log
         self.dead_models: set[str] = set()   # 404 等で使えないモデル
-        self.quota_models: set[str] = set()  # 今回の実行で上限に達したモデル
+        self.quota_models: set[str] = set()  # 今回の実行で1日の上限に達したモデル
+        self._last_call = 0.0
+        self._last_tokens = 0
+
+    # --- 見積もりと間隔調整 --------------------------------------------
+    def plan_fps(self, dur: int | None) -> float:
+        """1回のリクエストが1分あたりの上限に収まるようにフレーム間隔を決める。"""
+        if not dur:
+            return 1.0
+        fps = (self.tpm_limit / dur - self.AUDIO_TOK_PER_SEC) / self.FRAME_TOK
+        return max(0.05, min(1.0, round(fps, 2)))
+
+    def estimate_tokens(self, dur: int | None, fps: float = 1.0) -> int:
+        if not dur:
+            return 60000
+        return int(dur * (self.AUDIO_TOK_PER_SEC + self.FRAME_TOK * fps))
+
+    def fits(self, dur: int | None) -> bool:
+        return self.estimate_tokens(dur, 0.05) <= self.tpm_limit
+
+    def _pace(self, est_tokens: int):
+        """無料枠の「1分あたり」の上限に当たらないよう、リクエストの間隔をあける。"""
+        wait = self.min_interval
+        if self._last_tokens > self.tpm_limit * 0.4:
+            wait = max(wait, 62)  # 大きい動画の直後は1分あける
+        if est_tokens + self._last_tokens > self.tpm_limit:
+            wait = max(wait, 62)
+        remaining = wait - (time.time() - self._last_call)
+        if remaining > 0:
+            time.sleep(remaining)
 
     # --- リクエスト本体 -------------------------------------------------
     def _headers(self):
         return {"x-goog-api-key": self.key}
 
-    def _interactions(self, model: str, url: str, prompt: str, long: bool, full: bool) -> str:
+    def _interactions(self, model: str, url: str, prompt: str, fps: float, full: bool) -> str:
         video = {"type": "video", "uri": url, "resolution": "low"}
         body: dict = {"model": model, "input": [{"type": "text", "text": prompt}, video]}
         if full:
-            if long:
-                video["processing"] = {"type": "static", "fps": 0.25}
+            if fps < 1.0:
+                video["processing"] = {"type": "static", "fps": fps}
             body["generation_config"] = {"max_output_tokens": 8192, "thinking_level": "low"}
         data = http_request("POST", f"{GEMINI_BASE}/interactions", body,
-                            self._headers(), timeout=900)
+                            self._headers(), timeout=self.timeout)
         status = data.get("status")
         if status not in (None, "completed", "incomplete"):
             raise HttpError(503, f"interaction status={status}", url)
@@ -363,18 +396,19 @@ class Gemini:
                 for c in step.get("content") or []:
                     if c.get("type") == "text" and c.get("text"):
                         texts.append(c["text"])
-        text = "\n".join(texts).strip() or (data.get("output_text") or "").strip()
-        return text
+        return "\n".join(texts).strip() or (data.get("output_text") or "").strip()
 
-    def _generate(self, model: str, url: str, prompt: str, long: bool) -> str:
+    def _generate(self, model: str, url: str, prompt: str, fps: float) -> str:
+        part = {"file_data": {"file_uri": url}}
+        if fps < 1.0:
+            part["video_metadata"] = {"fps": fps}
         body = {
-            "contents": [{"role": "user", "parts": [
-                {"file_data": {"file_uri": url}}, {"text": prompt}]}],
+            "contents": [{"role": "user", "parts": [part, {"text": prompt}]}],
             "generationConfig": {"maxOutputTokens": 8192,
                                  "mediaResolution": "MEDIA_RESOLUTION_LOW"},
         }
         data = http_request("POST", f"{GEMINI_BASE}/models/{model}:generateContent",
-                            body, self._headers(), timeout=900)
+                            body, self._headers(), timeout=self.timeout)
         cands = data.get("candidates") or []
         if not cands:
             return ""
@@ -382,12 +416,12 @@ class Gemini:
         return "\n".join(p["text"] for p in parts
                          if p.get("text") and not p.get("thought")).strip()
 
-    def _call(self, variant: str, model: str, url: str, prompt: str, long: bool) -> str:
+    def _call(self, variant: str, model: str, url: str, prompt: str, fps: float) -> str:
         if variant == "interactions_full":
-            return self._interactions(model, url, prompt, long, full=True)
+            return self._interactions(model, url, prompt, fps, full=True)
         if variant == "interactions_min":
-            return self._interactions(model, url, prompt, long, full=False)
-        return self._generate(model, url, prompt, long)
+            return self._interactions(model, url, prompt, fps, full=False)
+        return self._generate(model, url, prompt, fps)
 
     # --- 切り替えロジック ----------------------------------------------
     def _ordered_variants(self, model: str) -> list[str]:
@@ -398,40 +432,63 @@ class Gemini:
             order.insert(0, hint)
         return order
 
-    def _try(self, variant: str, model: str, url: str, prompt: str, long: bool):
+    @staticmethod
+    def _short(e: Exception) -> str:
+        body = getattr(e, "body", str(e))
+        m = re.search(r'"message"\s*:\s*"([^"]{0,160})', body)
+        return (m.group(1) if m else body.replace("\n", " "))[:160]
+
+    def _try(self, variant: str, model: str, url: str, prompt: str, fps: float, est: int):
         """1つの書き方で試す。戻り値: (text or None, error, 次の行動)。
 
         次の行動: "next_variant"（別の書き方へ）/ "next_model"（別モデルへ）
         """
         for attempt in (1, 2):
+            self._pace(est)
+            t0 = time.time()
             try:
-                text = self._call(variant, model, url, prompt, long)
+                text = self._call(variant, model, url, prompt, fps)
             except HttpError as e:
+                el = time.time() - t0
+                self._last_call, self._last_tokens = time.time(), est
+                self.log.info(f"    · {model} [{variant}] → HTTP {e.status}（{el:.0f}秒）{self._short(e)}")
                 if e.status == 429:
-                    self.quota_models.add(model)
-                    self.log.warn(f"{model} が上限に達しました（429）")
+                    if re.search(r"per ?day|PerDay", e.body, re.IGNORECASE):
+                        self.quota_models.add(model)
+                        self.log.warn(f"{model} は本日の上限に達しました")
+                        return None, e, "next_model"
+                    if attempt == 1:
+                        time.sleep(65)  # 1分あたりの上限 → 1分待って再試行
+                        continue
                     return None, e, "next_model"
                 if e.status == 404:
                     self.dead_models.add(model)
                     self.log.warn(f"{model} が見つかりません（404）。次のモデルへ")
                     return None, e, "next_model"
                 if e.status == 401 or (e.status == 403 and "api key" in e.body.lower().replace("_", " ")):
-                    raise ConfigError(f"Gemini の APIキーが無効か権限がありません: {e}") from None
+                    raise ConfigError(f"Gemini の APIキーが無効か権限がありません: {self._short(e)}") from None
                 if e.status in (400, 403, 422):
                     return None, e, "next_variant"  # 書き方か動画側の問題
+                if e.status == 0:
+                    return None, e, "next_model"    # 時間切れ・通信エラーは同じ条件で繰り返さない
                 if attempt == 1:
-                    time.sleep(20)  # 一時的な不調は1回だけ待って再試行
+                    time.sleep(20)  # 一時的な不調（5xx）は1回だけ待って再試行
                     continue
                 return None, e, "next_model"
+            el = time.time() - t0
+            self._last_call, self._last_tokens = time.time(), est
             if text and len(text) > 80:
+                self.log.info(f"    · {model} [{variant}] → OK（{el:.0f}秒・{len(text)}字）")
                 return text, None, ""
+            self.log.info(f"    · {model} [{variant}] → 応答が空か短すぎます（{el:.0f}秒）")
             return None, SummarizeError("応答が空か短すぎます"), "next_variant"
         return None, SummarizeError("不明なエラー"), "next_model"
 
     def summarize(self, video: dict) -> tuple[str, str]:
         url = f"https://www.youtube.com/watch?v={video['id']}"
         dur = video.get("duration_sec")
-        long = dur is not None and dur / 60 > self.long_min
+        fps = self.plan_fps(dur)
+        est = self.estimate_tokens(dur, fps)
         pub = video.get("published", "")
         try:
             pub = parse_iso(pub).astimezone(JST).strftime("%Y-%m-%d")
@@ -447,7 +504,7 @@ class Gemini:
             only_bad_request = True
             moved_on = False
             for variant in self._ordered_variants(model):
-                text, err, action = self._try(variant, model, url, prompt, long)
+                text, err, action = self._try(variant, model, url, prompt, fps, est)
                 if text:
                     self.state.setdefault("api_hint", {})[model] = variant
                     return text, model
@@ -459,13 +516,13 @@ class Gemini:
                     break
             if not moved_on and only_bad_request:
                 # どの書き方でも 400 系 → 動画側（非公開・地域制限など）の可能性が高い
-                raise SummarizeError(f"動画を処理できません: {last_err}")
+                raise SummarizeError(f"動画を処理できません: {self._short(last_err)}")
         unusable = self.dead_models | self.quota_models
         if self.models and all(m in unusable for m in self.models):
             if self.quota_models:
                 raise QuotaExhausted(str(last_err))
             raise ConfigError("config.yml の gemini.models に使えるモデルがありません（モデル名を確認）")
-        raise SummarizeError(str(last_err) if last_err else "不明なエラー")
+        raise SummarizeError(self._short(last_err) if last_err else "不明なエラー")
 
 
 # ------------------------------------------------------------------
@@ -565,7 +622,7 @@ def main() -> int:
 
     def finished(vid: str) -> bool:
         s = videos.get(vid, {})
-        return s.get("status") in ("done", "skipped")
+        return s.get("status") in ("done", "skipped", "too_long")
 
     # ---- 1. 指定チャンネル -------------------------------------------
     channel_ids: dict[str, dict] = {}
@@ -644,6 +701,7 @@ def main() -> int:
     budget = int(gcfg.get("daily_minutes_budget", 420))
     cap = int(gcfg.get("max_videos_per_run", 8))
     gem = Gemini(gemini_key, gcfg, state, log)
+    run_deadline = time.time() + int(gcfg.get("max_run_minutes", 50)) * 60
     attempted = 0
     hard_errors = 0
     quota_hit = False
@@ -653,14 +711,27 @@ def main() -> int:
         if attempted >= cap:
             log.info(f"1回あたりの上限（{cap}本）に達したため、残りは次回に回します")
             break
+        if time.time() > run_deadline:
+            log.info("1回あたりの実行時間の上限に達したため、残りは次回に回します")
+            break
+        vid = v["id"]
+        label = f"{v.get('title', vid)}（{v.get('channel', '')}）"
+        if not gem.fits(v.get("duration_sec")):
+            videos[vid] = {"status": "too_long", "title": v.get("title", ""),
+                           "duration_min": round(v["duration_sec"] / 60),
+                           "updated": now_utc().isoformat()}
+            log.skipped.append(f"{label} — 長すぎるため見送り（無料枠の1回あたりの上限を超える）")
+            log.info(f"長すぎるため見送り: {label}")
+            save_json(STATE_PATH, state)
+            continue
         minutes = (v["duration_sec"] / 60) if v.get("duration_sec") else UNKNOWN_DURATION_MIN
         if usage["minutes"] + minutes > budget:
             log.info(f"本日の処理時間の上限（{budget}分）を超えるため次回に回します: {v.get('title', v['id'])}")
             continue  # 短い動画なら入るかもしれないので次へ
-        vid = v["id"]
         rec = videos.setdefault(vid, {"attempts": 0})
-        label = f"{v.get('title', vid)}（{v.get('channel', '')}）"
         attempted += 1
+        log.info(f"▶ [{attempted}] {label}｜{fmt_minutes(v.get('duration_sec'))}｜"
+                 f"見積もり約{gem.estimate_tokens(v.get('duration_sec'), gem.plan_fps(v.get('duration_sec'))) // 1000}Kトークン")
         try:
             text, model = gem.summarize(v)
         except QuotaExhausted:
@@ -688,6 +759,7 @@ def main() -> int:
                 rec["status"] = "failed"
                 log.failed.append(f"{label} — {str(e)[:150]}")
             hard_errors += 1
+            log.info(f"  ✗ 失敗: {str(e)[:150]}")
             save_json(STATE_PATH, state)
             continue
         usage["minutes"] += minutes
@@ -701,6 +773,7 @@ def main() -> int:
                    updated=now_utc().isoformat())
         rec.pop("last_error", None)
         log.done.append(f"{label} → {note.name}")
+        log.info(f"  ✓ メモ作成: {note.name}")
         state["usage"] = usage
         save_json(STATE_PATH, state)
 
