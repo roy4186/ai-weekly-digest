@@ -1,1 +1,96 @@
-{"videos": {}}
+{
+  "videos": {
+    "zypi00ZMZgM": {
+      "attempts": 1,
+      "title": "【全社総会を全公開】もう「研修」とは言わない。研修会社からAI商社へ。600社超を支援したデジライズは次に何をするのか？教育からロボットまで代表 茶圓が全社員に語ったビジョン｜挑戦する仲間を募集中",
+      "last_error": "HTTP 503: {\"error\":{\"message\":\"gemini-3.5-flash-lite is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.\",\"code\":\"service_unavailable\"}}",
+      "updated": "2026-10-19T15:08:01.605231+00:00",
+      "status": "failed"
+    },
+    "C4Sq3Rot8FU": {
+      "attempts": 1,
+      "title": "AI Labs Warn Race Makes Breach ‘Inevitable’",
+      "last_error": "HTTP 503: {\"error\":{\"message\":\"gemini-3.5-flash-lite is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.\",\"code\":\"service_unavailable\"}}",
+      "updated": "2026-10-19T15:10:25.348606+00:00",
+      "status": "failed"
+    },
+    "NCQZiT0e59g": {
+      "attempts": 1,
+      "title": "【最新トレンド】自分より頭良く働き続ける！AI社員の作り方を大公開",
+      "last_error": "HTTP 503: {\"error\":{\"message\":\"gemini-3.5-flash-lite is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.\",\"code\":\"service_unavailable\"}}",
+      "updated": "2026-10-19T15:16:57.235085+00:00",
+      "status": "failed"
+    },
+    "eBszYxzE2dk": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Google Just Caught Up (Gemini-4 Argon)",
+      "channel": "Matt Wolfe",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 262642,
+      "duration_min": 21,
+      "published": "2026-10-13T16:47:07Z",
+      "stars": 4,
+      "note": "notes/2026-10-14_eBszYxzE2dk.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-19T15:18:47.148669+00:00"
+    },
+    "G-9Y2xNiDKQ": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Work with your team in ChatGPT Space",
+      "channel": "OpenAI",
+      "company": "openai",
+      "source": "channel",
+      "query": "",
+      "views": 68326,
+      "duration_min": 3,
+      "published": "2026-10-13T21:01:10Z",
+      "stars": 5,
+      "note": "notes/2026-10-14_G-9Y2xNiDKQ.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-19T15:19:22.565176+00:00"
+    },
+    "eEhN64g4svs": {
+      "attempts": 0,
+      "status": "done",
+      "title": "最新アプデの神機能「Claude Code Projects」が凄すぎました。Projectsがどんな機能なのか実演しながら解説します",
+      "channel": "いまにゅのAIプログラミング塾",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 99252,
+      "duration_min": 30,
+      "published": "2026-10-14T09:00:02Z",
+      "stars": 1,
+      "note": "notes/2026-10-14_eEhN64g4svs.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-19T15:25:51.607572+00:00"
+    },
+    "F3nwyP57eoY": {
+      "attempts": 0,
+      "status": "done",
+      "title": "【速報】Gemini 4 Argon公開。果たしてGPT-6・Claudeを超えたのか？公式19項目中14項目トップの実力を3Dの渋谷・契約書・メール添削の実機4番勝負で徹底検証。正直な結論は…",
+      "channel": "チャエン【AI研究所】〜仕事で使える最新のAI情報を発信〜 Byデジライズ",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 8661,
+      "duration_min": 12,
+      "published": "2026-10-14T09:30:51Z",
+      "stars": 4,
+      "note": "notes/2026-10-14_F3nwyP57eoY.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-19T15:26:57.983513+00:00"
+    }
+  },
+  "api_hint": {
+    "gemini-3.5-flash-lite": "interactions_full"
+  },
+  "usage": {
+    "date_pt": "2026-10-19",
+    "minutes": 66.05
+  }
+}
