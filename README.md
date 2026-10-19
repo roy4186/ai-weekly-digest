@@ -73,6 +73,13 @@ PCは一切使いません。PCがスリープしていても動きます。
 | `data/state.json` | 処理済みの記録（触らなくてOK） |
 | `scripts/collect.py` | 収集プログラム本体 |
 
+## キーの置き場所（2026-10-19 設定）
+- Google Cloud プロジェクト：**blog-analytics**（blog-analytics-493402）。支払い設定なし＝無料枠で動く
+  - `ai-weekly-gemini`：Gemini API 専用キー（サービスアカウント ai-weekly-gemini にバインド、ロールなし）
+  - `ai-weekly-youtube`：YouTube Data API v3 専用キー
+- GitHub の Secrets：`GEMINI_API_KEY` / `YOUTUBE_API_KEY`
+- 注意：このプロジェクトに支払い設定を追加すると、Gemini は有料扱いになる
+
 ## 注意
 - Gemini の YouTube 動画読み込み機能はプレビュー版です。料金や上限が変わる可能性があります（無料枠は1日8時間まで、公開動画のみ）。
 - 無料枠では、送った内容が Google のサービス改善に使われる場合があります。扱うのは公開動画だけなので、個人情報は含まれません。
