@@ -44,10 +44,11 @@ channels:
     handle: "@zundamon_ai_lab"
     channel_id: UCJTaQeCDqeCKX7q_JhuPIJQ
     company: other
-  - name: SHIFT AI
-    handle: "@SHIFTAI"
-    channel_id: UC4ljNH-TkMrevjISKcD6V0Q
+  - name: SHIFT AI ニュース
+    handle: "@SHIFT-AI_kiuchiAI"
+    channel_id: UCboaqA4fwGpljEKeUjO1iVQ
     company: other
+  # 公式の対談・エンタメ系は「SHIFT AI ch」（@SHIFTAIch）。入れたい場合は同じ形で追加
   - name: チャエン【AI研究所】
     handle: "@chaen-ai-lab"
     channel_id: UC9buL3Iph_f7AZxdzmiBL8Q
