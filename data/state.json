@@ -3,23 +3,50 @@
     "zypi00ZMZgM": {
       "attempts": 2,
       "title": "【全社総会を全公開】もう「研修」とは言わない。研修会社からAI商社へ。600社超を支援したデジライズは次に何をするのか？教育からロボットまで代表 茶圓が全社員に語ったビジョン｜挑戦する仲間を募集中",
-      "last_error": "RemoteDisconnected: Remote end closed connection without response",
-      "updated": "2026-10-19T16:43:27.698096+00:00",
-      "status": "failed"
+      "updated": "2026-10-19T17:13:29.784118+00:00",
+      "status": "done",
+      "channel": "チャエン【AI研究所】〜仕事で使える最新のAI情報を発信〜 Byデジライズ",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 7692,
+      "duration_min": 34,
+      "published": "2026-10-12T10:19:31Z",
+      "stars": 4,
+      "note": "notes/2026-10-12_zypi00ZMZgM.md",
+      "model": "gemini-3.5-flash-lite"
     },
     "C4Sq3Rot8FU": {
       "attempts": 2,
       "title": "AI Labs Warn Race Makes Breach ‘Inevitable’",
-      "last_error": "RemoteDisconnected: Remote end closed connection without response",
-      "updated": "2026-10-19T16:51:00.817921+00:00",
-      "status": "failed"
+      "updated": "2026-10-19T17:14:49.559341+00:00",
+      "status": "done",
+      "channel": "AI Explained",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 147796,
+      "duration_min": 31,
+      "published": "2026-10-12T22:52:31Z",
+      "stars": 4,
+      "note": "notes/2026-10-13_C4Sq3Rot8FU.md",
+      "model": "gemini-3.5-flash-lite"
     },
     "NCQZiT0e59g": {
       "attempts": 2,
       "title": "【最新トレンド】自分より頭良く働き続ける！AI社員の作り方を大公開",
-      "last_error": "RemoteDisconnected: Remote end closed connection without response",
-      "updated": "2026-10-19T16:56:24.659849+00:00",
-      "status": "failed"
+      "updated": "2026-10-19T17:20:01.277743+00:00",
+      "status": "done",
+      "channel": "AI仙人 【AI歴10年・ガチADHD男】",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 91298,
+      "duration_min": 49,
+      "published": "2026-10-13T11:58:15Z",
+      "stars": 4,
+      "note": "notes/2026-10-13_NCQZiT0e59g.md",
+      "model": "gemini-3.5-flash-lite"
     },
     "eBszYxzE2dk": {
       "attempts": 0,
@@ -196,6 +223,70 @@
       "note": "notes/2026-10-17_KGcuuhqmPhI.md",
       "model": "gemini-3.5-flash-lite",
       "updated": "2026-10-19T17:11:24.782495+00:00"
+    },
+    "g1NRGT6t-sk": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Gemini 4の最新アプデをご紹介！Gemini 4を使ってみた正直な感想をAIのプロがお話しします",
+      "channel": "いまにゅのAIプログラミング塾",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 23072,
+      "duration_min": 22,
+      "published": "2026-10-17T09:00:30Z",
+      "stars": 4,
+      "note": "notes/2026-10-17_g1NRGT6t-sk.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-19T17:23:26.591064+00:00"
+    },
+    "KyOVBrS72SA": {
+      "attempts": 0,
+      "status": "done",
+      "title": "南海トラフ巨大地震 25都府県の津波ランキング【国の想定・完全版】",
+      "channel": "ずんだもんのAIラボ",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 10,
+      "duration_min": 3,
+      "published": "2026-10-17T09:15:51Z",
+      "stars": 3,
+      "note": "notes/2026-10-17_KyOVBrS72SA.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-19T17:24:37.093570+00:00"
+    },
+    "DzXAsObvMio": {
+      "attempts": 0,
+      "status": "done",
+      "title": "【必見】周りと差がつくAIの使い方！最新のAIエージェント最強環境は「T3 Code」を徹底解説します",
+      "channel": "いまにゅのAIプログラミング塾",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 13430,
+      "duration_min": 24,
+      "published": "2026-10-18T09:00:19Z",
+      "stars": 4,
+      "note": "notes/2026-10-18_DzXAsObvMio.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-19T17:26:26.460901+00:00"
+    },
+    "xIEzjwReF2s": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Germany: This is the new ChatGPT Voice, powered by GPT Live",
+      "channel": "OpenAI",
+      "company": "openai",
+      "source": "channel",
+      "query": "",
+      "views": 15419,
+      "duration_min": 3,
+      "published": "2026-10-19T04:30:15Z",
+      "stars": 4,
+      "note": "notes/2026-10-19_xIEzjwReF2s.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-19T17:27:34.972261+00:00"
     }
   },
   "api_hint": {
@@ -203,7 +294,7 @@
   },
   "usage": {
     "date_pt": "2026-10-19",
-    "minutes": 252.5
+    "minutes": 417.7
   },
-  "last_run": "2026-10-19T17:11:24.783051+00:00"
+  "last_run": "2026-10-19T17:27:34.973047+00:00"
 }
