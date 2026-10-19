@@ -488,10 +488,11 @@ class Gemini:
             return None, SummarizeError("応答が空か短すぎます"), "next_variant"
         return None, SummarizeError("不明なエラー"), "next_model"
 
-    def summarize(self, video: dict) -> tuple[str, str]:
+    def summarize(self, video: dict, attempts: int = 0) -> tuple[str, str]:
         url = f"https://www.youtube.com/watch?v={video['id']}"
         dur = video.get("duration_sec")
-        fps = self.plan_fps(dur)
+        # 前回失敗した動画は、フレームをさらに間引いて軽くしてから再挑戦する
+        fps = max(0.05, round(self.plan_fps(dur) / (1 + attempts), 2))
         est = self.estimate_tokens(dur, fps)
         pub = video.get("published", "")
         try:
@@ -744,7 +745,7 @@ def main() -> int:
         log.info(f"▶ [{attempted}] {label}｜{fmt_minutes(v.get('duration_sec'))}｜"
                  f"見積もり約{gem.estimate_tokens(v.get('duration_sec'), gem.plan_fps(v.get('duration_sec'))) // 1000}Kトークン")
         try:
-            text, model = gem.summarize(v)
+            text, model = gem.summarize(v, rec.get("attempts", 0))
         except QuotaExhausted:
             attempted -= 1
             quota_hit = True

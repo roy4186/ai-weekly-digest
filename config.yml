@@ -96,11 +96,12 @@ filters:
 # --- Gemini（動画を見る係）の設定 ---------------------------------
 gemini:
   # 上から順に試し、使えなければ次のモデルへ切り替えます
-  # 無料枠の目安（2026年10月）：3.8 Flash は1日20回、3.5 Flash Lite は1日500回
+  # 無料枠の目安（2026年10月）：3.5 Flash Lite は1日500回、3.8 / 3.6 Flash は1日20回
+  # 3.8 Flash は混雑で断られることが多いため、安定している Flash Lite を主力にする
   models:
+    - gemini-3.5-flash-lite
     - gemini-3.8-flash
     - gemini-3.6-flash
-    - gemini-3.5-flash-lite
   max_videos_per_run: 10   # 1回の実行で要約する最大本数（全体）
   max_run_minutes: 50      # 1回の実行でこの時間を過ぎたら、残りは次回に回す
   daily_minutes_budget: 420  # 1日に処理する動画の合計分数（無料枠は1日8時間）
