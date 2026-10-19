@@ -322,7 +322,7 @@ PROMPT = """あなたはAI業界の動画を視聴して要点メモを作る記
 （Anthropic / OpenAI / Google / その他 のうち該当するものと製品名）
 ## 誰に役立つか
 ## おすすめ度
-（★1〜5の数と、その理由を1行）
+（「★★★★☆」のように★を5つ並べた形式で評価し、その理由を1行）
 ## 見どころ
 （特に見る価値のある箇所を、タイムスタンプ付きで2〜3個）
 """
@@ -472,7 +472,7 @@ class Gemini:
                 if e.status == 0:
                     return None, e, "next_model"    # 時間切れ・通信エラーは同じ条件で繰り返さない
                 if attempt == 1:
-                    time.sleep(20)  # 一時的な不調（5xx）は1回だけ待って再試行
+                    time.sleep(45)  # 一時的な不調（5xx・混雑）は少し待って1回だけ再試行
                     continue
                 return None, e, "next_model"
             el = time.time() - t0
@@ -556,7 +556,11 @@ def write_note(video: dict, text: str, model: str) -> Path:
 
 
 def stars(text: str) -> int | None:
-    m = re.search(r"おすすめ度[^★]{0,40}(★+)", text)
+    sec = text.split("おすすめ度", 1)[1][:120] if "おすすめ度" in text else ""
+    m = re.search(r"★\s*([1-5])(?![0-9])", sec) or re.search(r"([1-5])\s*(?:/\s*5|点)", sec)
+    if m:
+        return int(m.group(1))
+    m = re.search(r"(★+)", sec)
     return len(m.group(1)) if m else None
 
 
@@ -580,6 +584,9 @@ def update_index(state: dict) -> None:
                 continue
         except Exception:
             pass
+        note = ROOT / s.get("note", "")
+        if s.get("note") and note.exists():
+            s["stars"] = stars(note.read_text(encoding="utf-8"))
         rows.append({k: s.get(k) for k in (
             "title", "channel", "company", "published", "source", "query",
             "duration_min", "views", "stars", "note", "updated")} | {"video_id": vid})
