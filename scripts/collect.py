@@ -703,7 +703,10 @@ def main() -> int:
         discovery_candidates.sort(key=lambda v: v["views"], reverse=True)
         discovery_candidates = discovery_candidates[: int(dcfg.get("per_run", 2))]
 
-    queue = channel_candidates + discovery_candidates
+    # 発掘枠が毎回後回しにならないよう、1回の上限のうち発掘分の枠を先に確保する
+    cap_total = int(gcfg.get("max_videos_per_run", 8))
+    head = max(0, cap_total - len(discovery_candidates))
+    queue = channel_candidates[:head] + discovery_candidates + channel_candidates[head:]
     log.info(f"候補: 指定チャンネル {len(channel_candidates)}本 / 発掘 {len(discovery_candidates)}本")
 
     # ---- 3. Gemini で要約 -------------------------------------------
