@@ -166,6 +166,10 @@ class RunLog:
                 out += ["", f"### {title}"] + [f"- {x}" for x in items]
         if extra:
             out += [""] + extra
+        if self.lines:
+            out += ["", "<details><summary>詳細ログ</summary>", "", "```"]
+            out += [re.sub(r"AIza[0-9A-Za-z_\-]{10,}", "[KEY]", l) for l in self.lines]
+            out += ["```", "", "</details>"]
         out.append("")
         prev = path.read_text(encoding="utf-8") if path.exists() else f"# {jst:%Y-%m-%d} の実行ログ\n\n"
         path.write_text(prev + "\n".join(out) + "\n", encoding="utf-8")

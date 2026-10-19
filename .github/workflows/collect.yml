@@ -22,6 +22,8 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: main   # 常に最新の状態から始める（処理済みの記録を取りこぼさない）
 
       - uses: actions/setup-python@v6
         with:
@@ -49,7 +51,11 @@ jobs:
           fi
           git commit -m "collect: $(TZ=Asia/Tokyo date +%F)"
           for i in 1 2 3; do
-            git pull --rebase origin main && git push && exit 0
+            # 実行中に設定などが更新されていても、今回の収集結果を優先して取り込む
+            if git pull --rebase -X theirs origin main && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
             sleep 10
           done
           exit 1
