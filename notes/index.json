@@ -1,5 +1,61 @@
 [
   {
+    "title": "Design and replicate voices with Gemini 3.8 Flash TTS",
+    "channel": "Google for Developers",
+    "company": "google",
+    "published": "2026-10-21T19:00:23Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 14,
+    "views": 3428,
+    "stars": 4,
+    "note": "notes/2026-10-22_SOF3_evPje8.md",
+    "updated": "2026-10-21T23:22:54.883642+00:00",
+    "video_id": "SOF3_evPje8"
+  },
+  {
+    "title": "AI Breakthroughs Everyone Missed",
+    "channel": "Matt Wolfe",
+    "company": "other",
+    "published": "2026-10-21T17:45:26Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 25,
+    "views": 33131,
+    "stars": 4,
+    "note": "notes/2026-10-22_umGZrkyTRtw.md",
+    "updated": "2026-10-21T23:21:45.062075+00:00",
+    "video_id": "umGZrkyTRtw"
+  },
+  {
+    "title": "PHP緊急事態。「認証不要」でサイト乗っ取りの脆弱性",
+    "channel": "IT・AI速報チャンネル【ずんだもん解説】",
+    "company": "other",
+    "published": "2026-10-21T14:15:21Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 10,
+    "views": 14088,
+    "stars": 4,
+    "note": "notes/2026-10-21_SrFnCPS6S3Y.md",
+    "updated": "2026-10-21T23:21:17.067011+00:00",
+    "video_id": "SrFnCPS6S3Y"
+  },
+  {
+    "title": "ChatGPTを会社導入する前に絶対見て！AIのプロが法人でCodexを導入したい人に向けて知っておくべき知識を話します",
+    "channel": "いまにゅのAIプログラミング塾",
+    "company": "other",
+    "published": "2026-10-21T09:00:12Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 32,
+    "views": 9009,
+    "stars": 4,
+    "note": "notes/2026-10-21_1RsqmoX9Amw.md",
+    "updated": "2026-10-21T23:20:03.965556+00:00",
+    "video_id": "1RsqmoX9Amw"
+  },
+  {
     "title": "今AIを触ってない人は、未来でAIを使う権利をもらえない説",
     "channel": "AI仙人 【AI歴10年・ガチADHD男】",
     "company": "other",
@@ -98,6 +154,20 @@
     "video_id": "DzXAsObvMio"
   },
   {
+    "title": "【dotsでAI秘書革命】ChatGPTの新機能！あらゆる業務を丸ごと任せる大AIエージェント時代の到来",
+    "channel": "中田敦彦のYouTube大学 - NAKATA UNIVERSITY",
+    "company": "",
+    "published": "2026-10-17T10:00:04Z",
+    "source": "discovery",
+    "query": "Claude 新機能",
+    "duration_min": 41,
+    "views": 1101750,
+    "stars": 4,
+    "note": "notes/2026-10-17_azx8Up-cSWA.md",
+    "updated": "2026-10-21T23:24:23.556763+00:00",
+    "video_id": "azx8Up-cSWA"
+  },
+  {
     "title": "南海トラフ巨大地震 25都府県の津波ランキング【国の想定・完全版】",
     "channel": "ずんだもんのAIラボ",
     "company": "other",
@@ -124,6 +194,20 @@
     "note": "notes/2026-10-17_g1NRGT6t-sk.md",
     "updated": "2026-10-19T17:23:26.591064+00:00",
     "video_id": "g1NRGT6t-sk"
+  },
+  {
+    "title": "The Rise of Anthropic Explained Like You're 5",
+    "channel": "Crayon Capital",
+    "company": "",
+    "published": "2026-10-16T16:21:45Z",
+    "source": "discovery",
+    "query": "Anthropic Claude",
+    "duration_min": 18,
+    "views": 577080,
+    "stars": 4,
+    "note": "notes/2026-10-17_H5GYXhpE5yI.md",
+    "updated": "2026-10-21T23:25:44.758000+00:00",
+    "video_id": "H5GYXhpE5yI"
   },
   {
     "title": "AI News: 6 New Models & A Nano Banana Killer",

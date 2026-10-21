@@ -399,14 +399,110 @@
       "note": "notes/2026-10-14_vsAAgH_nYzM.md",
       "model": "gemini-3.5-flash-lite",
       "updated": "2026-10-20T23:17:51.142061+00:00"
+    },
+    "1RsqmoX9Amw": {
+      "attempts": 0,
+      "status": "done",
+      "title": "ChatGPTを会社導入する前に絶対見て！AIのプロが法人でCodexを導入したい人に向けて知っておくべき知識を話します",
+      "channel": "いまにゅのAIプログラミング塾",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 9009,
+      "duration_min": 32,
+      "published": "2026-10-21T09:00:12Z",
+      "stars": 4,
+      "note": "notes/2026-10-21_1RsqmoX9Amw.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-21T23:20:03.965556+00:00"
+    },
+    "SrFnCPS6S3Y": {
+      "attempts": 0,
+      "status": "done",
+      "title": "PHP緊急事態。「認証不要」でサイト乗っ取りの脆弱性",
+      "channel": "IT・AI速報チャンネル【ずんだもん解説】",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 14088,
+      "duration_min": 10,
+      "published": "2026-10-21T14:15:21Z",
+      "stars": 4,
+      "note": "notes/2026-10-21_SrFnCPS6S3Y.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-21T23:21:17.067011+00:00"
+    },
+    "umGZrkyTRtw": {
+      "attempts": 0,
+      "status": "done",
+      "title": "AI Breakthroughs Everyone Missed",
+      "channel": "Matt Wolfe",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 33131,
+      "duration_min": 25,
+      "published": "2026-10-21T17:45:26Z",
+      "stars": 4,
+      "note": "notes/2026-10-22_umGZrkyTRtw.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-21T23:21:45.062075+00:00"
+    },
+    "SOF3_evPje8": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Design and replicate voices with Gemini 3.8 Flash TTS",
+      "channel": "Google for Developers",
+      "company": "google",
+      "source": "channel",
+      "query": "",
+      "views": 3428,
+      "duration_min": 14,
+      "published": "2026-10-21T19:00:23Z",
+      "stars": 4,
+      "note": "notes/2026-10-22_SOF3_evPje8.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-21T23:22:54.883642+00:00"
+    },
+    "azx8Up-cSWA": {
+      "attempts": 0,
+      "status": "done",
+      "title": "【dotsでAI秘書革命】ChatGPTの新機能！あらゆる業務を丸ごと任せる大AIエージェント時代の到来",
+      "channel": "中田敦彦のYouTube大学 - NAKATA UNIVERSITY",
+      "company": "",
+      "source": "discovery",
+      "query": "Claude 新機能",
+      "views": 1101750,
+      "duration_min": 41,
+      "published": "2026-10-17T10:00:04Z",
+      "stars": 4,
+      "note": "notes/2026-10-17_azx8Up-cSWA.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-21T23:24:23.556763+00:00"
+    },
+    "H5GYXhpE5yI": {
+      "attempts": 0,
+      "status": "done",
+      "title": "The Rise of Anthropic Explained Like You're 5",
+      "channel": "Crayon Capital",
+      "company": "",
+      "source": "discovery",
+      "query": "Anthropic Claude",
+      "views": 577080,
+      "duration_min": 18,
+      "published": "2026-10-16T16:21:45Z",
+      "stars": 4,
+      "note": "notes/2026-10-17_H5GYXhpE5yI.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-21T23:25:44.758000+00:00"
     }
   },
   "api_hint": {
     "gemini-3.5-flash-lite": "interactions_full"
   },
   "usage": {
-    "date_pt": "2026-10-20",
-    "minutes": 136.58333333333331
+    "date_pt": "2026-10-21",
+    "minutes": 140.66666666666666
   },
-  "last_run": "2026-10-20T23:17:51.142691+00:00"
+  "last_run": "2026-10-21T23:25:44.758687+00:00"
 }
