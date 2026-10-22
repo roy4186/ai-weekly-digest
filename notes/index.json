@@ -1,5 +1,33 @@
 [
   {
+    "title": "【超速報】PHPの脆弱性 何が起こった？どう対応する？ネット歴史上ガチの大惨事が起こっている",
+    "channel": "AI仙人 【AI歴10年・ガチADHD男】",
+    "company": "other",
+    "published": "2026-10-22T13:01:34Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 28,
+    "views": 92740,
+    "stars": 4,
+    "note": "notes/2026-10-22_UExqBIy4KOY.md",
+    "updated": "2026-10-22T23:23:40.947917+00:00",
+    "video_id": "UExqBIy4KOY"
+  },
+  {
+    "title": "AIが作ったAI「Flint」、MacBookで毎秒125トークンは本当か",
+    "channel": "IT・AI速報チャンネル【ずんだもん解説】",
+    "company": "other",
+    "published": "2026-10-22T12:00:17Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 10,
+    "views": 427,
+    "stars": 4,
+    "note": "notes/2026-10-22__qmKEHIgokg.md",
+    "updated": "2026-10-22T23:23:11.472523+00:00",
+    "video_id": "_qmKEHIgokg"
+  },
+  {
     "title": "Design and replicate voices with Gemini 3.8 Flash TTS",
     "channel": "Google for Developers",
     "company": "google",
@@ -124,6 +152,20 @@
     "note": "notes/2026-10-19_xIEzjwReF2s.md",
     "updated": "2026-10-19T17:27:34.972261+00:00",
     "video_id": "xIEzjwReF2s"
+  },
+  {
+    "title": "Gemini Has A New AI Super App | Here’s How To Master It",
+    "channel": "Paul J Lipsky",
+    "company": "",
+    "published": "2026-10-18T13:00:20Z",
+    "source": "discovery",
+    "query": "Google Gemini",
+    "duration_min": 15,
+    "views": 348483,
+    "stars": 5,
+    "note": "notes/2026-10-18_YJ_e-dsMruc.md",
+    "updated": "2026-10-22T23:24:54.581603+00:00",
+    "video_id": "YJ_e-dsMruc"
   },
   {
     "title": "【初心者】Claude CodeもCodexも結果が変わる「フォルダ設計」完全ガイド",
@@ -264,6 +306,20 @@
     "note": "notes/2026-10-16_aVMaK2erBcY.md",
     "updated": "2026-10-19T17:04:51.924872+00:00",
     "video_id": "aVMaK2erBcY"
+  },
+  {
+    "title": "ChatGPT's \"Grandma\" Ad is TERRIBLE (And Predatory)",
+    "channel": "DM Quil",
+    "company": "",
+    "published": "2026-10-15T16:00:10Z",
+    "source": "discovery",
+    "query": "OpenAI ChatGPT",
+    "duration_min": 16,
+    "views": 338983,
+    "stars": 4,
+    "note": "notes/2026-10-16_P6NDqoyA_cg.md",
+    "updated": "2026-10-22T23:25:25.463992+00:00",
+    "video_id": "P6NDqoyA_cg"
   },
   {
     "title": "OpenAI’s lead engineer was secretly a spy...",

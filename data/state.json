@@ -495,14 +495,78 @@
       "note": "notes/2026-10-17_H5GYXhpE5yI.md",
       "model": "gemini-3.5-flash-lite",
       "updated": "2026-10-21T23:25:44.758000+00:00"
+    },
+    "_qmKEHIgokg": {
+      "attempts": 0,
+      "status": "done",
+      "title": "AIが作ったAI「Flint」、MacBookで毎秒125トークンは本当か",
+      "channel": "IT・AI速報チャンネル【ずんだもん解説】",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 427,
+      "duration_min": 10,
+      "published": "2026-10-22T12:00:17Z",
+      "stars": 4,
+      "note": "notes/2026-10-22__qmKEHIgokg.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-22T23:23:11.472523+00:00"
+    },
+    "UExqBIy4KOY": {
+      "attempts": 0,
+      "status": "done",
+      "title": "【超速報】PHPの脆弱性 何が起こった？どう対応する？ネット歴史上ガチの大惨事が起こっている",
+      "channel": "AI仙人 【AI歴10年・ガチADHD男】",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 92740,
+      "duration_min": 28,
+      "published": "2026-10-22T13:01:34Z",
+      "stars": 4,
+      "note": "notes/2026-10-22_UExqBIy4KOY.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-22T23:23:40.947917+00:00"
+    },
+    "YJ_e-dsMruc": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Gemini Has A New AI Super App | Here’s How To Master It",
+      "channel": "Paul J Lipsky",
+      "company": "",
+      "source": "discovery",
+      "query": "Google Gemini",
+      "views": 348483,
+      "duration_min": 15,
+      "published": "2026-10-18T13:00:20Z",
+      "stars": 5,
+      "note": "notes/2026-10-18_YJ_e-dsMruc.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-22T23:24:54.581603+00:00"
+    },
+    "P6NDqoyA_cg": {
+      "attempts": 0,
+      "status": "done",
+      "title": "ChatGPT's \"Grandma\" Ad is TERRIBLE (And Predatory)",
+      "channel": "DM Quil",
+      "company": "",
+      "source": "discovery",
+      "query": "OpenAI ChatGPT",
+      "views": 338983,
+      "duration_min": 16,
+      "published": "2026-10-15T16:00:10Z",
+      "stars": 4,
+      "note": "notes/2026-10-16_P6NDqoyA_cg.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-22T23:25:25.463992+00:00"
     }
   },
   "api_hint": {
     "gemini-3.5-flash-lite": "interactions_full"
   },
   "usage": {
-    "date_pt": "2026-10-21",
-    "minutes": 140.66666666666666
+    "date_pt": "2026-10-22",
+    "minutes": 68.5
   },
-  "last_run": "2026-10-21T23:25:44.758687+00:00"
+  "last_run": "2026-10-22T23:25:25.464865+00:00"
 }
