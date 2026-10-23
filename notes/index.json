@@ -1,5 +1,75 @@
 [
   {
+    "title": "Hunt bugs with your dot",
+    "channel": "OpenAI",
+    "company": "openai",
+    "published": "2026-10-23T22:05:37Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 5,
+    "views": 1813,
+    "stars": 4,
+    "note": "notes/2026-10-24_6f7ojkd4_Wc.md",
+    "updated": "2026-10-23T23:12:46.585028+00:00",
+    "video_id": "6f7ojkd4_Wc"
+  },
+  {
+    "title": "AI News: 24 Things You Need To Know This Week",
+    "channel": "Matt Wolfe",
+    "company": "other",
+    "published": "2026-10-23T17:40:19Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 27,
+    "views": 26774,
+    "stars": 4,
+    "note": "notes/2026-10-24_TVRCcMlvR10.md",
+    "updated": "2026-10-23T23:11:37.761288+00:00",
+    "video_id": "TVRCcMlvR10"
+  },
+  {
+    "title": "AIを無人島に30時間放置した結果…遊んだAIの方が強かった？",
+    "channel": "IT・AI速報チャンネル【ずんだもん解説】",
+    "company": "other",
+    "published": "2026-10-23T12:00:31Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 9,
+    "views": 134,
+    "stars": 4,
+    "note": "notes/2026-10-23_CCgWwvKAGbg.md",
+    "updated": "2026-10-23T23:11:09.763957+00:00",
+    "video_id": "CCgWwvKAGbg"
+  },
+  {
+    "title": "【設定ほぼなし】「ChatGPT dots」で分かる最新のAI秘書の仕組みと始め方",
+    "channel": "SHIFT AI ニュース",
+    "company": "other",
+    "published": "2026-10-23T10:18:10Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 14,
+    "views": 2588,
+    "stars": 4,
+    "note": "notes/2026-10-23_twCNkh_TcoY.md",
+    "updated": "2026-10-23T23:10:44.286930+00:00",
+    "video_id": "twCNkh_TcoY"
+  },
+  {
+    "title": "【絶対作るべき】AI猛者が自作している最強Skillsを5つご紹介させていただきます",
+    "channel": "いまにゅのAIプログラミング塾",
+    "company": "other",
+    "published": "2026-10-23T09:00:18Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 35,
+    "views": 11014,
+    "stars": 4,
+    "note": "notes/2026-10-23_hM4xqQpOO2I.md",
+    "updated": "2026-10-23T23:09:27.558285+00:00",
+    "video_id": "hM4xqQpOO2I"
+  },
+  {
     "title": "【超速報】PHPの脆弱性 何が起こった？どう対応する？ネット歴史上ガチの大惨事が起こっている",
     "channel": "AI仙人 【AI歴10年・ガチADHD男】",
     "company": "other",
@@ -26,6 +96,20 @@
     "note": "notes/2026-10-22__qmKEHIgokg.md",
     "updated": "2026-10-22T23:23:11.472523+00:00",
     "video_id": "_qmKEHIgokg"
+  },
+  {
+    "title": "Anthropic Just Dropped Claude Duet (Full Breakdown)",
+    "channel": "Brock Mesarich | AI for Non Techies",
+    "company": "",
+    "published": "2026-10-21T21:53:41Z",
+    "source": "discovery",
+    "query": "Anthropic Claude",
+    "duration_min": 8,
+    "views": 257516,
+    "stars": 4,
+    "note": "notes/2026-10-22_nv1aaP3dHzs.md",
+    "updated": "2026-10-23T23:13:41.979555+00:00",
+    "video_id": "nv1aaP3dHzs"
   },
   {
     "title": "Design and replicate voices with Gemini 3.8 Flash TTS",
@@ -194,6 +278,20 @@
     "note": "notes/2026-10-18_DzXAsObvMio.md",
     "updated": "2026-10-19T17:26:26.460901+00:00",
     "video_id": "DzXAsObvMio"
+  },
+  {
+    "title": "Google Whistleblower Drops a Bombshell on OpenAI",
+    "channel": "Tucker Carlson Network",
+    "company": "",
+    "published": "2026-10-17T23:00:30Z",
+    "source": "discovery",
+    "query": "OpenAI ChatGPT",
+    "duration_min": 12,
+    "views": 488780,
+    "stars": 4,
+    "note": "notes/2026-10-18_0akzrl8dviI.md",
+    "updated": "2026-10-23T23:13:15.710852+00:00",
+    "video_id": "0akzrl8dviI"
   },
   {
     "title": "【dotsでAI秘書革命】ChatGPTの新機能！あらゆる業務を丸ごと任せる大AIエージェント時代の到来",
