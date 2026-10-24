@@ -671,14 +671,78 @@
       "note": "notes/2026-10-22_nv1aaP3dHzs.md",
       "model": "gemini-3.5-flash-lite",
       "updated": "2026-10-23T23:13:41.979555+00:00"
+    },
+    "wZOCJUaiqEA": {
+      "attempts": 0,
+      "status": "done",
+      "title": "【貴重講演】AIエージェントで業務を自動化し売上まで作る\"ループ型AI駆動経営\"とは？600社超を支援したAI企業の代表が語るAI活用の5段階《前編》",
+      "channel": "チャエン【AI研究所】〜仕事で使える最新のAI情報を発信〜 Byデジライズ",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 3004,
+      "duration_min": 24,
+      "published": "2026-10-24T09:34:03Z",
+      "stars": 5,
+      "note": "notes/2026-10-24_wZOCJUaiqEA.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-24T22:29:05.489814+00:00"
+    },
+    "LENxiYJ62kU": {
+      "attempts": 0,
+      "status": "done",
+      "title": "AIが「抜け道」を通って学習する事件...OpenAIが\"ネット断ち\"学習に転換した理由",
+      "channel": "IT・AI速報チャンネル【ずんだもん解説】",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 274,
+      "duration_min": 9,
+      "published": "2026-10-24T10:00:01Z",
+      "stars": 4,
+      "note": "notes/2026-10-24_LENxiYJ62kU.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-24T22:30:17.747710+00:00"
+    },
+    "TN3cM02unIQ": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Google Flow छोड़ो! 😱 ये FREE AI Tool Unlimited Long Video बनाता है | image to video ai free 🔥",
+      "channel": "Arvind zone",
+      "company": "",
+      "source": "discovery",
+      "query": "Google Gemini",
+      "views": 247438,
+      "duration_min": 6,
+      "published": "2026-10-19T07:30:52Z",
+      "stars": 4,
+      "note": "notes/2026-10-19_TN3cM02unIQ.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-24T22:30:38.521872+00:00"
+    },
+    "Ge1B-Ok1Pfk": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Claude Makes a New Kind of Video - Full Tutorial",
+      "channel": "Futurepedia",
+      "company": "",
+      "source": "discovery",
+      "query": "Claude 新機能",
+      "views": 245573,
+      "duration_min": 11,
+      "published": "2026-10-19T15:24:55Z",
+      "stars": 5,
+      "note": "notes/2026-10-20_Ge1B-Ok1Pfk.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-24T22:31:01.957411+00:00"
     }
   },
   "api_hint": {
     "gemini-3.5-flash-lite": "interactions_full"
   },
   "usage": {
-    "date_pt": "2026-10-23",
-    "minutes": 110.46666666666667
+    "date_pt": "2026-10-24",
+    "minutes": 50.21666666666667
   },
-  "last_run": "2026-10-23T23:13:41.980520+00:00"
+  "last_run": "2026-10-24T22:31:01.958593+00:00"
 }

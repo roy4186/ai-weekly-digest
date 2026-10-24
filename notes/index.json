@@ -1,5 +1,33 @@
 [
   {
+    "title": "AIが「抜け道」を通って学習する事件...OpenAIが\"ネット断ち\"学習に転換した理由",
+    "channel": "IT・AI速報チャンネル【ずんだもん解説】",
+    "company": "other",
+    "published": "2026-10-24T10:00:01Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 9,
+    "views": 274,
+    "stars": 4,
+    "note": "notes/2026-10-24_LENxiYJ62kU.md",
+    "updated": "2026-10-24T22:30:17.747710+00:00",
+    "video_id": "LENxiYJ62kU"
+  },
+  {
+    "title": "【貴重講演】AIエージェントで業務を自動化し売上まで作る\"ループ型AI駆動経営\"とは？600社超を支援したAI企業の代表が語るAI活用の5段階《前編》",
+    "channel": "チャエン【AI研究所】〜仕事で使える最新のAI情報を発信〜 Byデジライズ",
+    "company": "other",
+    "published": "2026-10-24T09:34:03Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 24,
+    "views": 3004,
+    "stars": 5,
+    "note": "notes/2026-10-24_wZOCJUaiqEA.md",
+    "updated": "2026-10-24T22:29:05.489814+00:00",
+    "video_id": "wZOCJUaiqEA"
+  },
+  {
     "title": "Hunt bugs with your dot",
     "channel": "OpenAI",
     "company": "openai",
@@ -210,6 +238,20 @@
     "video_id": "DQHtmW9ZlIs"
   },
   {
+    "title": "Claude Makes a New Kind of Video - Full Tutorial",
+    "channel": "Futurepedia",
+    "company": "",
+    "published": "2026-10-19T15:24:55Z",
+    "source": "discovery",
+    "query": "Claude 新機能",
+    "duration_min": 11,
+    "views": 245573,
+    "stars": 5,
+    "note": "notes/2026-10-20_Ge1B-Ok1Pfk.md",
+    "updated": "2026-10-24T22:31:01.957411+00:00",
+    "video_id": "Ge1B-Ok1Pfk"
+  },
+  {
     "title": "【知らないと損】Claude Codeの神機能TOP7。使いこなすと生産性は10倍変わる？4アカウントを使い倒すAI企業のCEO兼CTOが設定方法まで徹底解説《スキル、Remote Control》",
     "channel": "チャエン【AI研究所】〜仕事で使える最新のAI情報を発信〜 Byデジライズ",
     "company": "other",
@@ -222,6 +264,20 @@
     "note": "notes/2026-10-19_AGCW7t1kf2g.md",
     "updated": "2026-10-20T23:12:51.507165+00:00",
     "video_id": "AGCW7t1kf2g"
+  },
+  {
+    "title": "Google Flow छोड़ो! 😱 ये FREE AI Tool Unlimited Long Video बनाता है | image to video ai free 🔥",
+    "channel": "Arvind zone",
+    "company": "",
+    "published": "2026-10-19T07:30:52Z",
+    "source": "discovery",
+    "query": "Google Gemini",
+    "duration_min": 6,
+    "views": 247438,
+    "stars": 4,
+    "note": "notes/2026-10-19_TN3cM02unIQ.md",
+    "updated": "2026-10-24T22:30:38.521872+00:00",
+    "video_id": "TN3cM02unIQ"
   },
   {
     "title": "Germany: This is the new ChatGPT Voice, powered by GPT Live",
