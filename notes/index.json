@@ -1,5 +1,19 @@
 [
   {
+    "title": "PyPI汚染でAPIキーとクラウド認証情報が標的に...LiteLLM 1.107.0の侵害を解説",
+    "channel": "IT・AI速報チャンネル【ずんだもん解説】",
+    "company": "other",
+    "published": "2026-10-26T12:00:23Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 9,
+    "views": 461,
+    "stars": 5,
+    "note": "notes/2026-10-26_rWTbq20XElI.md",
+    "updated": "2026-10-26T23:53:44.235444+00:00",
+    "video_id": "rWTbq20XElI"
+  },
+  {
     "title": "AIに「誰に投票すべき？」と聞いたら、答えが真逆だった【GPT vs Grok】",
     "channel": "IT・AI速報チャンネル【ずんだもん解説】",
     "company": "other",
@@ -250,6 +264,34 @@
     "note": "notes/2026-10-21_1RsqmoX9Amw.md",
     "updated": "2026-10-21T23:20:03.965556+00:00",
     "video_id": "1RsqmoX9Amw"
+  },
+  {
+    "title": "ChatGPT Whistleblower WARNS: “You’re Being LIED To\"",
+    "channel": "The Diary Of A CEO Clips",
+    "company": "",
+    "published": "2026-10-20T18:00:09Z",
+    "source": "discovery",
+    "query": "OpenAI ChatGPT",
+    "duration_min": 20,
+    "views": 2188262,
+    "stars": 4,
+    "note": "notes/2026-10-21_ORWu-SDbgjc.md",
+    "updated": "2026-10-26T23:54:17.982317+00:00",
+    "video_id": "ORWu-SDbgjc"
+  },
+  {
+    "title": "Did Google just dethrone OpenAI and Anthropic?",
+    "channel": "Fireship",
+    "company": "",
+    "published": "2026-10-20T16:21:03Z",
+    "source": "discovery",
+    "query": "Google Gemini",
+    "duration_min": 7,
+    "views": 1913761,
+    "stars": 4,
+    "note": "notes/2026-10-21_b2tjnxX8IHU.md",
+    "updated": "2026-10-26T23:55:30.040634+00:00",
+    "video_id": "b2tjnxX8IHU"
   },
   {
     "title": "今AIを触ってない人は、未来でAIを使う権利をもらえない説",

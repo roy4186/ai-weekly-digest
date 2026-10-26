@@ -821,14 +821,62 @@
       "note": "notes/2026-10-19_LWxX6vvHfrc.md",
       "model": "gemini-3.5-flash-lite",
       "updated": "2026-10-25T22:36:13.426224+00:00"
+    },
+    "rWTbq20XElI": {
+      "attempts": 0,
+      "status": "done",
+      "title": "PyPI汚染でAPIキーとクラウド認証情報が標的に...LiteLLM 1.107.0の侵害を解説",
+      "channel": "IT・AI速報チャンネル【ずんだもん解説】",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 461,
+      "duration_min": 9,
+      "published": "2026-10-26T12:00:23Z",
+      "stars": 5,
+      "note": "notes/2026-10-26_rWTbq20XElI.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-26T23:53:44.235444+00:00"
+    },
+    "ORWu-SDbgjc": {
+      "attempts": 0,
+      "status": "done",
+      "title": "ChatGPT Whistleblower WARNS: “You’re Being LIED To\"",
+      "channel": "The Diary Of A CEO Clips",
+      "company": "",
+      "source": "discovery",
+      "query": "OpenAI ChatGPT",
+      "views": 2188262,
+      "duration_min": 20,
+      "published": "2026-10-20T18:00:09Z",
+      "stars": 4,
+      "note": "notes/2026-10-21_ORWu-SDbgjc.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-26T23:54:17.982317+00:00"
+    },
+    "b2tjnxX8IHU": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Did Google just dethrone OpenAI and Anthropic?",
+      "channel": "Fireship",
+      "company": "",
+      "source": "discovery",
+      "query": "Google Gemini",
+      "views": 1913761,
+      "duration_min": 7,
+      "published": "2026-10-20T16:21:03Z",
+      "stars": 4,
+      "note": "notes/2026-10-21_b2tjnxX8IHU.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-26T23:55:30.040634+00:00"
     }
   },
   "api_hint": {
     "gemini-3.5-flash-lite": "interactions_full"
   },
   "usage": {
-    "date_pt": "2026-10-25",
-    "minutes": 62.56666666666666
+    "date_pt": "2026-10-26",
+    "minutes": 35.5
   },
-  "last_run": "2026-10-25T22:36:13.427035+00:00"
+  "last_run": "2026-10-26T23:55:30.042390+00:00"
 }
