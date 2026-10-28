@@ -1,5 +1,47 @@
 [
   {
+    "title": "AI投資、効果なし？米大企業の利益が動かない理由【Apolloノート】",
+    "channel": "IT・AI速報チャンネル【ずんだもん解説】",
+    "company": "other",
+    "published": "2026-10-27T12:00:14Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 9,
+    "views": 116,
+    "stars": 4,
+    "note": "notes/2026-10-27_ZiuxzUNat0g.md",
+    "updated": "2026-10-27T23:59:43.840703+00:00",
+    "video_id": "ZiuxzUNat0g"
+  },
+  {
+    "title": "【簡単にわかる】エンジニアぽくて苦手な人も多いGitHub、AI時代に全員必須ツールなので解説する",
+    "channel": "AI仙人 【AI歴10年・ガチADHD男】",
+    "company": "other",
+    "published": "2026-10-27T11:57:44Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 51,
+    "views": 42596,
+    "stars": 4,
+    "note": "notes/2026-10-27_Sl1EQw5wwKc.md",
+    "updated": "2026-10-27T23:58:29.119388+00:00",
+    "video_id": "Sl1EQw5wwKc"
+  },
+  {
+    "title": "Anthropic's finances are wilder than you think",
+    "channel": "Sky News",
+    "company": "",
+    "published": "2026-10-26T20:00:08Z",
+    "source": "discovery",
+    "query": "Anthropic Claude",
+    "duration_min": 7,
+    "views": 472858,
+    "stars": 4,
+    "note": "notes/2026-10-27_giokryTGj_A.md",
+    "updated": "2026-10-28T00:01:25.633915+00:00",
+    "video_id": "giokryTGj_A"
+  },
+  {
     "title": "PyPI汚染でAPIキーとクラウド認証情報が標的に...LiteLLM 1.107.0の侵害を解説",
     "channel": "IT・AI速報チャンネル【ずんだもん解説】",
     "company": "other",
@@ -26,6 +68,20 @@
     "note": "notes/2026-10-25_dhoOC2WI3wM.md",
     "updated": "2026-10-25T22:35:50.864191+00:00",
     "video_id": "dhoOC2WI3wM"
+  },
+  {
+    "title": "Claude 2.0 is Insane (All Updates Explained)",
+    "channel": "Ben AI",
+    "company": "",
+    "published": "2026-10-25T09:45:01Z",
+    "source": "discovery",
+    "query": "Claude 新機能",
+    "duration_min": 14,
+    "views": 614523,
+    "stars": 4,
+    "note": "notes/2026-10-25_J5EbL1UaqG8.md",
+    "updated": "2026-10-28T00:00:46.130137+00:00",
+    "video_id": "J5EbL1UaqG8"
   },
   {
     "title": "【超使える】Codex App Serverで画像生成アプリを作ってみた！最新のChatGPT Images 2.5を搭載したオリジナルアプリの作り方を話します",
