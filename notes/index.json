@@ -1,5 +1,19 @@
 [
   {
+    "title": "【簡単な裏技】ChatGPTで「資料図解・プロフ写真」も作れる画像コマンド7選",
+    "channel": "SHIFT AI ニュース",
+    "company": "other",
+    "published": "2026-10-29T09:00:22Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 15,
+    "views": 3034,
+    "stars": 4,
+    "note": "notes/2026-10-29_bOzr14Yj_bA.md",
+    "updated": "2026-10-29T23:57:28.726433+00:00",
+    "video_id": "bOzr14Yj_bA"
+  },
+  {
     "title": "His AI Made 20 Reels Before Breakfast",
     "channel": "Matt Wolfe",
     "company": "other",
@@ -126,6 +140,20 @@
     "video_id": "giokryTGj_A"
   },
   {
+    "title": "How Profitable Is Anthropic? WSJ Reporter Breaks Down Its IPO Filing | WSJ News",
+    "channel": "WSJ News",
+    "company": "",
+    "published": "2026-10-26T16:21:57Z",
+    "source": "discovery",
+    "query": "Anthropic Claude",
+    "duration_min": 4,
+    "views": 183646,
+    "stars": 4,
+    "note": "notes/2026-10-27_q1tw29SieHo.md",
+    "updated": "2026-10-29T23:58:16.062197+00:00",
+    "video_id": "q1tw29SieHo"
+  },
+  {
     "title": "PyPI汚染でAPIキーとクラウド認証情報が標的に...LiteLLM 1.107.0の侵害を解説",
     "channel": "IT・AI速報チャンネル【ずんだもん解説】",
     "company": "other",
@@ -138,6 +166,20 @@
     "note": "notes/2026-10-26_rWTbq20XElI.md",
     "updated": "2026-10-26T23:53:44.235444+00:00",
     "video_id": "rWTbq20XElI"
+  },
+  {
+    "title": "Recep İvedik ve Gemini İş Başında 📱 | \"İsimsiz kahve mi olur Nurullah?!\"",
+    "channel": "Google Türkiye",
+    "company": "",
+    "published": "2026-10-25T14:23:51Z",
+    "source": "discovery",
+    "query": "Google Gemini",
+    "duration_min": 3,
+    "views": 252401,
+    "stars": 3,
+    "note": "notes/2026-10-25_SHFIJP1ZB6k.md",
+    "updated": "2026-10-29T23:57:53.521656+00:00",
+    "video_id": "SHFIJP1ZB6k"
   },
   {
     "title": "AIに「誰に投票すべき？」と聞いたら、答えが真逆だった【GPT vs Grok】",
