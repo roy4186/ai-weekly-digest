@@ -873,9 +873,18 @@
     "eSNq8eXNxFo": {
       "attempts": 1,
       "title": "【新人に抜かれる前に】Excelt×Copilot自動化の優しい教科書",
-      "last_error": "Your project has exceeded a quota. See https://ai.dev/rate-limit to manage your rate limits.",
-      "updated": "2026-10-27T23:57:02.643201+00:00",
-      "status": "failed"
+      "updated": "2026-10-29T00:00:46.325723+00:00",
+      "status": "done",
+      "channel": "SHIFT AI ニュース",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 4245,
+      "duration_min": 19,
+      "published": "2026-10-27T08:30:17Z",
+      "stars": 4,
+      "note": "notes/2026-10-27_eSNq8eXNxFo.md",
+      "model": "gemini-3.5-flash-lite"
     },
     "Sl1EQw5wwKc": {
       "attempts": 0,
@@ -940,14 +949,126 @@
       "note": "notes/2026-10-27_giokryTGj_A.md",
       "model": "gemini-3.5-flash-lite",
       "updated": "2026-10-28T00:01:25.633915+00:00"
+    },
+    "glL7Dzn8iDQ": {
+      "attempts": 0,
+      "status": "done",
+      "title": "AI時代の情報漏洩を防ぐためのセキュリティ特化Agent Skillsを紹介！AIを使う上で知っておくべきセキュリティの知識を話します",
+      "channel": "いまにゅのAIプログラミング塾",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 15366,
+      "duration_min": 35,
+      "published": "2026-10-28T09:00:01Z",
+      "stars": 4,
+      "note": "notes/2026-10-28_glL7Dzn8iDQ.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-29T00:02:49.913025+00:00"
+    },
+    "z-WZMjNsg-k": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Faster contract review. Broader legal analysis. | Legora’s Alex Fortescue-Webb",
+      "channel": "OpenAI",
+      "company": "openai",
+      "source": "channel",
+      "query": "",
+      "views": 5012,
+      "duration_min": 4,
+      "published": "2026-10-28T09:45:16Z",
+      "stars": 4,
+      "note": "notes/2026-10-28_z-WZMjNsg-k.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-29T00:04:00.832595+00:00"
+    },
+    "UOfmD1fY-i8": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Building the future of legal work with AI | Legora CEO Max Junestrand",
+      "channel": "OpenAI",
+      "company": "openai",
+      "source": "channel",
+      "query": "",
+      "views": 6364,
+      "duration_min": 4,
+      "published": "2026-10-28T09:45:18Z",
+      "stars": 4,
+      "note": "notes/2026-10-28_UOfmD1fY-i8.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-29T00:04:21.378366+00:00"
+    },
+    "M2Oa42hF67E": {
+      "attempts": 0,
+      "status": "done",
+      "title": "From legal bottleneck to business partner | Legora’s Emma Kadri Bergström",
+      "channel": "OpenAI",
+      "company": "openai",
+      "source": "channel",
+      "query": "",
+      "views": 6720,
+      "duration_min": 4,
+      "published": "2026-10-28T09:45:24Z",
+      "stars": 4,
+      "note": "notes/2026-10-28_M2Oa42hF67E.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-29T00:05:21.952085+00:00"
+    },
+    "AtjFk9f44HE": {
+      "attempts": 0,
+      "status": "done",
+      "title": "His AI Made 20 Reels Before Breakfast",
+      "channel": "Matt Wolfe",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 14891,
+      "duration_min": 38,
+      "published": "2026-10-28T19:25:38Z",
+      "stars": 4,
+      "note": "notes/2026-10-29_AtjFk9f44HE.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-29T00:06:36.535903+00:00"
+    },
+    "fJBSNEFdm8c": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Sundar Pichai on what's next for Google Gemini, Waymo, and data centers in space",
+      "channel": "Sources Podcast",
+      "company": "",
+      "source": "discovery",
+      "query": "Google Gemini",
+      "views": 414908,
+      "duration_min": 59,
+      "published": "2026-10-21T15:01:35Z",
+      "stars": 4,
+      "note": "notes/2026-10-22_fJBSNEFdm8c.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-29T00:08:36.423530+00:00"
+    },
+    "aZMKzHhlTh8": {
+      "attempts": 0,
+      "status": "done",
+      "title": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
+      "channel": "WorldofAI",
+      "company": "",
+      "source": "discovery",
+      "query": "Claude 新機能",
+      "views": 307375,
+      "duration_min": 30,
+      "published": "2026-10-25T07:03:15Z",
+      "stars": 4,
+      "note": "notes/2026-10-25_aZMKzHhlTh8.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-29T00:10:24.484677+00:00"
     }
   },
   "api_hint": {
     "gemini-3.5-flash-lite": "interactions_full"
   },
   "usage": {
-    "date_pt": "2026-10-27",
-    "minutes": 80.03333333333333
+    "date_pt": "2026-10-28",
+    "minutes": 193.55
   },
-  "last_run": "2026-10-28T00:01:25.635068+00:00"
+  "last_run": "2026-10-29T00:10:24.486007+00:00"
 }

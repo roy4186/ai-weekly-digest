@@ -1,5 +1,75 @@
 [
   {
+    "title": "His AI Made 20 Reels Before Breakfast",
+    "channel": "Matt Wolfe",
+    "company": "other",
+    "published": "2026-10-28T19:25:38Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 38,
+    "views": 14891,
+    "stars": 4,
+    "note": "notes/2026-10-29_AtjFk9f44HE.md",
+    "updated": "2026-10-29T00:06:36.535903+00:00",
+    "video_id": "AtjFk9f44HE"
+  },
+  {
+    "title": "From legal bottleneck to business partner | Legora’s Emma Kadri Bergström",
+    "channel": "OpenAI",
+    "company": "openai",
+    "published": "2026-10-28T09:45:24Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 4,
+    "views": 6720,
+    "stars": 4,
+    "note": "notes/2026-10-28_M2Oa42hF67E.md",
+    "updated": "2026-10-29T00:05:21.952085+00:00",
+    "video_id": "M2Oa42hF67E"
+  },
+  {
+    "title": "Building the future of legal work with AI | Legora CEO Max Junestrand",
+    "channel": "OpenAI",
+    "company": "openai",
+    "published": "2026-10-28T09:45:18Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 4,
+    "views": 6364,
+    "stars": 4,
+    "note": "notes/2026-10-28_UOfmD1fY-i8.md",
+    "updated": "2026-10-29T00:04:21.378366+00:00",
+    "video_id": "UOfmD1fY-i8"
+  },
+  {
+    "title": "Faster contract review. Broader legal analysis. | Legora’s Alex Fortescue-Webb",
+    "channel": "OpenAI",
+    "company": "openai",
+    "published": "2026-10-28T09:45:16Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 4,
+    "views": 5012,
+    "stars": 4,
+    "note": "notes/2026-10-28_z-WZMjNsg-k.md",
+    "updated": "2026-10-29T00:04:00.832595+00:00",
+    "video_id": "z-WZMjNsg-k"
+  },
+  {
+    "title": "AI時代の情報漏洩を防ぐためのセキュリティ特化Agent Skillsを紹介！AIを使う上で知っておくべきセキュリティの知識を話します",
+    "channel": "いまにゅのAIプログラミング塾",
+    "company": "other",
+    "published": "2026-10-28T09:00:01Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 35,
+    "views": 15366,
+    "stars": 4,
+    "note": "notes/2026-10-28_glL7Dzn8iDQ.md",
+    "updated": "2026-10-29T00:02:49.913025+00:00",
+    "video_id": "glL7Dzn8iDQ"
+  },
+  {
     "title": "AI投資、効果なし？米大企業の利益が動かない理由【Apolloノート】",
     "channel": "IT・AI速報チャンネル【ずんだもん解説】",
     "company": "other",
@@ -26,6 +96,20 @@
     "note": "notes/2026-10-27_Sl1EQw5wwKc.md",
     "updated": "2026-10-27T23:58:29.119388+00:00",
     "video_id": "Sl1EQw5wwKc"
+  },
+  {
+    "title": "【新人に抜かれる前に】Excelt×Copilot自動化の優しい教科書",
+    "channel": "SHIFT AI ニュース",
+    "company": "other",
+    "published": "2026-10-27T08:30:17Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 19,
+    "views": 4245,
+    "stars": 4,
+    "note": "notes/2026-10-27_eSNq8eXNxFo.md",
+    "updated": "2026-10-29T00:00:46.325723+00:00",
+    "video_id": "eSNq8eXNxFo"
   },
   {
     "title": "Anthropic's finances are wilder than you think",
@@ -110,6 +194,20 @@
     "note": "notes/2026-10-25_IUserLOJ6Ds.md",
     "updated": "2026-10-25T22:34:08.757236+00:00",
     "video_id": "IUserLOJ6Ds"
+  },
+  {
+    "title": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
+    "channel": "WorldofAI",
+    "company": "",
+    "published": "2026-10-25T07:03:15Z",
+    "source": "discovery",
+    "query": "Claude 新機能",
+    "duration_min": 30,
+    "views": 307375,
+    "stars": 4,
+    "note": "notes/2026-10-25_aZMKzHhlTh8.md",
+    "updated": "2026-10-29T00:10:24.484677+00:00",
+    "video_id": "aZMKzHhlTh8"
   },
   {
     "title": "【会議で使える】Gemini 4 Argon×Canvasで“動く資料”の活用法3選",
@@ -292,6 +390,20 @@
     "note": "notes/2026-10-22_umGZrkyTRtw.md",
     "updated": "2026-10-21T23:21:45.062075+00:00",
     "video_id": "umGZrkyTRtw"
+  },
+  {
+    "title": "Sundar Pichai on what's next for Google Gemini, Waymo, and data centers in space",
+    "channel": "Sources Podcast",
+    "company": "",
+    "published": "2026-10-21T15:01:35Z",
+    "source": "discovery",
+    "query": "Google Gemini",
+    "duration_min": 59,
+    "views": 414908,
+    "stars": 4,
+    "note": "notes/2026-10-22_fJBSNEFdm8c.md",
+    "updated": "2026-10-29T00:08:36.423530+00:00",
+    "video_id": "fJBSNEFdm8c"
   },
   {
     "title": "PHP緊急事態。「認証不要」でサイト乗っ取りの脆弱性",
