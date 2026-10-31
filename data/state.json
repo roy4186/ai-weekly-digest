@@ -1189,14 +1189,46 @@
       "note": "notes/2026-10-29_FLum2xzpaHM.md",
       "model": "gemini-3.5-flash-lite",
       "updated": "2026-10-30T23:56:29.896345+00:00"
+    },
+    "g0wi-pmXTCY": {
+      "attempts": 0,
+      "status": "done",
+      "title": "【ついに日本語対応!】iOS 27.2の新機能まとめ！Siri AIが大進化！DuoはApple Pencil対応に!変更点と注意点を徹底解説！",
+      "channel": "みずおじさん / 誰でも分かるスマホ講座",
+      "company": "",
+      "source": "discovery",
+      "query": "ChatGPT 新機能",
+      "views": 415508,
+      "duration_min": 14,
+      "published": "2026-10-26T23:18:32Z",
+      "stars": 5,
+      "note": "notes/2026-10-27_g0wi-pmXTCY.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-31T23:24:51.104003+00:00"
+    },
+    "Zhn19hELt4k": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Nghịch lý Google. Gemini ngu thì mất khách, Gemini giỏi thì mất tiền: Google bay 500 tỷ USD",
+      "channel": "Tuấn Tiền Tỉ",
+      "company": "",
+      "source": "discovery",
+      "query": "Google Gemini",
+      "views": 249987,
+      "duration_min": 12,
+      "published": "2026-10-30T14:47:26Z",
+      "stars": 3,
+      "note": "notes/2026-10-30_Zhn19hELt4k.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-10-31T23:25:20.880428+00:00"
     }
   },
   "api_hint": {
     "gemini-3.5-flash-lite": "interactions_full"
   },
   "usage": {
-    "date_pt": "2026-10-30",
-    "minutes": 138.46666666666667
+    "date_pt": "2026-10-31",
+    "minutes": 26.46666666666667
   },
-  "last_run": "2026-10-30T23:56:29.898084+00:00"
+  "last_run": "2026-10-31T23:25:20.881760+00:00"
 }
