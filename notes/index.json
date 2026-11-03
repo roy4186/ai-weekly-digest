@@ -1,5 +1,19 @@
 [
   {
+    "title": "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon",
+    "channel": "AI Explained",
+    "company": "other",
+    "published": "2026-11-02T17:02:16Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 28,
+    "views": 61121,
+    "stars": 4,
+    "note": "notes/2026-11-03_0Kw6_DTZPrY.md",
+    "updated": "2026-11-03T02:20:58.068393+00:00",
+    "video_id": "0Kw6_DTZPrY"
+  },
+  {
     "title": "【もう迷うな】Google AI Proで得になるものを全部見せるガイド【Gemini4 Argon・Notebook・Spark・Antigravity・Flow・Vids】",
     "channel": "SHIFT AI ニュース",
     "company": "other",
@@ -124,6 +138,34 @@
     "note": "notes/2026-10-29_FLum2xzpaHM.md",
     "updated": "2026-10-30T23:56:29.896345+00:00",
     "video_id": "FLum2xzpaHM"
+  },
+  {
+    "title": "The Numbers Behind Anthropic",
+    "channel": "The Plain Bagel",
+    "company": "",
+    "published": "2026-10-28T15:00:08Z",
+    "source": "discovery",
+    "query": "Anthropic Claude",
+    "duration_min": 18,
+    "views": 1023428,
+    "stars": 4,
+    "note": "notes/2026-10-29_6ZrgRjdJs3o.md",
+    "updated": "2026-11-03T02:22:34.946205+00:00",
+    "video_id": "6ZrgRjdJs3o"
+  },
+  {
+    "title": "Did the AI bubble just pop?",
+    "channel": "Fireship",
+    "company": "",
+    "published": "2026-10-28T13:31:29Z",
+    "source": "discovery",
+    "query": "OpenAI ChatGPT",
+    "duration_min": 5,
+    "views": 2484374,
+    "stars": 4,
+    "note": "notes/2026-10-28_nEaJMdM1djM.md",
+    "updated": "2026-11-03T02:22:09.540260+00:00",
+    "video_id": "nEaJMdM1djM"
   },
   {
     "title": "From legal bottleneck to business partner | Legora’s Emma Kadri Bergström",
