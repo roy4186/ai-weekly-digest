@@ -1,5 +1,61 @@
 [
   {
+    "title": "How I Get Claude To Edit My Videos (No Code Needed)",
+    "channel": "Matt Wolfe",
+    "company": "other",
+    "published": "2026-11-04T16:40:16Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 33,
+    "views": 23449,
+    "stars": 4,
+    "note": "notes/2026-11-05_ep4psgAFOqc.md",
+    "updated": "2026-11-05T00:58:24.938941+00:00",
+    "video_id": "ep4psgAFOqc"
+  },
+  {
+    "title": "【商談を即スライド化】Gemini Notebookアプリが直接録音に対応",
+    "channel": "SHIFT AI ニュース",
+    "company": "other",
+    "published": "2026-11-04T11:13:24Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 15,
+    "views": 4654,
+    "stars": 4,
+    "note": "notes/2026-11-04_rLB7IA_hU7Q.md",
+    "updated": "2026-11-05T00:56:56.995080+00:00",
+    "video_id": "rLB7IA_hU7Q"
+  },
+  {
+    "title": "【裏技】AI猛者がGPT-6 Astraを最大限活用するためにやってることは？！AI猛者がAI活用のコツを解説させていただきます",
+    "channel": "いまにゅのAIプログラミング塾",
+    "company": "other",
+    "published": "2026-11-04T09:00:06Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 28,
+    "views": 8708,
+    "stars": 4,
+    "note": "notes/2026-11-04_nZTyo5dkcUs.md",
+    "updated": "2026-11-05T00:55:30.779496+00:00",
+    "video_id": "nZTyo5dkcUs"
+  },
+  {
+    "title": "Sam Altman On AI Revolution, Superintelligence & Future Of Humanity | FO583 Raj Shamani",
+    "channel": "Raj Shamani",
+    "company": "",
+    "published": "2026-11-03T15:39:22Z",
+    "source": "discovery",
+    "query": "OpenAI ChatGPT",
+    "duration_min": 68,
+    "views": 2780002,
+    "stars": 4,
+    "note": "notes/2026-11-04_TjPPIf-M6KE.md",
+    "updated": "2026-11-05T00:59:50.570728+00:00",
+    "video_id": "TjPPIf-M6KE"
+  },
+  {
     "title": "【人材大量解雇】中国AIウラ事情に精通する男からタレコミ。今中国で起こる\"リアル\"な格差とは？",
     "channel": "AI仙人 【AI歴10年・ガチADHD男】",
     "company": "other",
@@ -68,6 +124,20 @@
     "note": "notes/2026-11-01_M3hvIUwAL7c.md",
     "updated": "2026-11-01T23:36:56.657340+00:00",
     "video_id": "M3hvIUwAL7c"
+  },
+  {
+    "title": "Anthropic Opened Its Books. What Is It Really Worth?",
+    "channel": "Patrick Boyle",
+    "company": "",
+    "published": "2026-10-31T14:25:37Z",
+    "source": "discovery",
+    "query": "Anthropic Claude",
+    "duration_min": 39,
+    "views": 1277355,
+    "stars": 4,
+    "note": "notes/2026-10-31_Ic1Jf7VlXRM.md",
+    "updated": "2026-11-05T01:01:42.778900+00:00",
+    "video_id": "Ic1Jf7VlXRM"
   },
   {
     "title": "6 AI Updates Worth Knowing & A Bubble-Bursting IPO",
