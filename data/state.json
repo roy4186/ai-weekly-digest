@@ -1436,14 +1436,27 @@
       "note": "notes/2026-10-31_Ic1Jf7VlXRM.md",
       "model": "gemini-3.5-flash-lite",
       "updated": "2026-11-05T01:01:42.778900+00:00"
+    },
+    "x09f_BuJsoY": {
+      "status": "too_long",
+      "title": "Big Tech’s $3T AI Bet, Claude Writes 90% of Anthropic’s Code, AIs Editing AI Brains | EP #308",
+      "duration_min": 114,
+      "updated": "2026-11-06T00:57:55.499112+00:00"
+    },
+    "-PYQopXG7dM": {
+      "attempts": 1,
+      "title": "Google's New Genie 4 Is the Beginning of Synthetic Reality!",
+      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
+      "updated": "2026-11-06T01:04:12.685604+00:00",
+      "status": "failed"
     }
   },
   "api_hint": {
     "gemini-3.5-flash-lite": "interactions_full"
   },
   "usage": {
-    "date_pt": "2026-11-04",
-    "minutes": 182.88333333333335
+    "date_pt": "2026-11-05",
+    "minutes": 0
   },
-  "last_run": "2026-11-05T01:01:42.779829+00:00"
+  "last_run": "2026-11-06T01:04:12.687199+00:00"
 }
