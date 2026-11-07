@@ -1,5 +1,61 @@
 [
   {
+    "title": "AI News: New ChatGPT & Google Models (14 Updates Worth Knowing)",
+    "channel": "Matt Wolfe",
+    "company": "other",
+    "published": "2026-11-06T18:20:31Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 25,
+    "views": 33171,
+    "stars": 4,
+    "note": "notes/2026-11-07_IrAHINf0M6E.md",
+    "updated": "2026-11-07T00:12:04.108025+00:00",
+    "video_id": "IrAHINf0M6E"
+  },
+  {
+    "title": "【PC閉じても仕事する】Grok Botの注目理由3つと業務での使い方",
+    "channel": "SHIFT AI ニュース",
+    "company": "other",
+    "published": "2026-11-06T12:33:02Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 22,
+    "views": 1659,
+    "stars": 4,
+    "note": "notes/2026-11-06_Nu5F_5pGdGQ.md",
+    "updated": "2026-11-07T00:10:37.374609+00:00",
+    "video_id": "Nu5F_5pGdGQ"
+  },
+  {
+    "title": "AIバブルの流れ変わった。次来る「儲かりチャンス」の見極め方をこっそり教えるで",
+    "channel": "AI仙人 【AI歴10年・ガチADHD男】",
+    "company": "other",
+    "published": "2026-11-06T12:04:23Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 50,
+    "views": 46226,
+    "stars": 4,
+    "note": "notes/2026-11-06_dKnLGBIxXYY.md",
+    "updated": "2026-11-07T00:08:58.941936+00:00",
+    "video_id": "dKnLGBIxXYY"
+  },
+  {
+    "title": "【中国人型ロボの実態】電撃潜入。Unitree本社の内情／日本語を話すLimXのOli／UBTECH・DEEP Robotics／二足の実用は「あと1〜2年」【中国出張 前編】（フィジカルAI）",
+    "channel": "チャエン【AI研究所】〜仕事で使える最新のAI情報を発信〜 Byデジライズ",
+    "company": "other",
+    "published": "2026-11-06T08:55:19Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 27,
+    "views": 2786,
+    "stars": 4,
+    "note": "notes/2026-11-06_eG2sEzfG5OQ.md",
+    "updated": "2026-11-07T00:07:15.901292+00:00",
+    "video_id": "eG2sEzfG5OQ"
+  },
+  {
     "title": "How I Get Claude To Edit My Videos (No Code Needed)",
     "channel": "Matt Wolfe",
     "company": "other",
@@ -82,6 +138,20 @@
     "note": "notes/2026-11-03_0Kw6_DTZPrY.md",
     "updated": "2026-11-03T02:20:58.068393+00:00",
     "video_id": "0Kw6_DTZPrY"
+  },
+  {
+    "title": "Anthropic can't stop winning",
+    "channel": "Theo - t3․gg",
+    "company": "",
+    "published": "2026-11-02T09:10:01Z",
+    "source": "discovery",
+    "query": "Anthropic Claude",
+    "duration_min": 17,
+    "views": 210139,
+    "stars": 3,
+    "note": "notes/2026-11-02_y5TEATUDDfc.md",
+    "updated": "2026-11-07T00:13:37.481331+00:00",
+    "video_id": "y5TEATUDDfc"
   },
   {
     "title": "Anthropic Just DESTROYED the Reason You Pay for Claude",
@@ -1244,5 +1314,19 @@
     "note": "notes/2026-10-12_yhSuXSJMbSE.md",
     "updated": "2026-10-19T16:35:48.680599+00:00",
     "video_id": "yhSuXSJMbSE"
+  },
+  {
+    "title": "How to Use Google Gemini Al (Full Tutorial)",
+    "channel": "Kevin Stratvert",
+    "company": "",
+    "published": "2026-05-22T12:19:34Z",
+    "source": "discovery",
+    "query": "Google Gemini",
+    "duration_min": 10,
+    "views": 377330,
+    "stars": 5,
+    "note": "notes/2026-05-22_PDMcpthR88U.md",
+    "updated": "2026-11-07T00:13:13.601009+00:00",
+    "video_id": "PDMcpthR88U"
   }
 ]
