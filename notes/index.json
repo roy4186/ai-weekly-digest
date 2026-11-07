@@ -1,5 +1,19 @@
 [
   {
+    "title": "【Grok Bot超入門】最新のAI秘書Grok Botを徹底解説！猛者が使うプロアクティブエージェントをご紹介します",
+    "channel": "いまにゅのAIプログラミング塾",
+    "company": "other",
+    "published": "2026-11-07T09:00:21Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 33,
+    "views": 14298,
+    "stars": 4,
+    "note": "notes/2026-11-07_hUfToEMSFGY.md",
+    "updated": "2026-11-07T23:38:58.634283+00:00",
+    "video_id": "hUfToEMSFGY"
+  },
+  {
     "title": "AI News: New ChatGPT & Google Models (14 Updates Worth Knowing)",
     "channel": "Matt Wolfe",
     "company": "other",
@@ -12,6 +26,20 @@
     "note": "notes/2026-11-07_IrAHINf0M6E.md",
     "updated": "2026-11-07T00:12:04.108025+00:00",
     "video_id": "IrAHINf0M6E"
+  },
+  {
+    "title": "Anthropic just built it...",
+    "channel": "Wes Roth",
+    "company": "",
+    "published": "2026-11-06T14:35:24Z",
+    "source": "discovery",
+    "query": "Anthropic Claude",
+    "duration_min": 41,
+    "views": 160496,
+    "stars": 3,
+    "note": "notes/2026-11-06_2lt4P_xGFL8.md",
+    "updated": "2026-11-07T23:40:38.839550+00:00",
+    "video_id": "2lt4P_xGFL8"
   },
   {
     "title": "【PC閉じても仕事する】Grok Botの注目理由3つと業務での使い方",
@@ -124,6 +152,20 @@
     "note": "notes/2026-11-03_ITdhEjButOY.md",
     "updated": "2026-11-04T00:39:29.984461+00:00",
     "video_id": "ITdhEjButOY"
+  },
+  {
+    "title": "Anthropic's RSI Breakthrough?! NEW Fable 5.5 Checkpoint, NEW GPT, DeepSeek Harness, & More! AI NEWS",
+    "channel": "WorldofAI",
+    "company": "",
+    "published": "2026-11-03T08:12:32Z",
+    "source": "discovery",
+    "query": "Anthropic Claude",
+    "duration_min": 34,
+    "views": 152863,
+    "stars": 4,
+    "note": "notes/2026-11-03_i-wYjUriSzo.md",
+    "updated": "2026-11-07T23:42:13.725566+00:00",
+    "video_id": "i-wYjUriSzo"
   },
   {
     "title": "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon",

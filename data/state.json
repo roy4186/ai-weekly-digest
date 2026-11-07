@@ -1545,14 +1545,62 @@
       "note": "notes/2026-11-02_y5TEATUDDfc.md",
       "model": "gemini-3.5-flash-lite",
       "updated": "2026-11-07T00:13:37.481331+00:00"
+    },
+    "hUfToEMSFGY": {
+      "attempts": 0,
+      "status": "done",
+      "title": "【Grok Bot超入門】最新のAI秘書Grok Botを徹底解説！猛者が使うプロアクティブエージェントをご紹介します",
+      "channel": "いまにゅのAIプログラミング塾",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 14298,
+      "duration_min": 33,
+      "published": "2026-11-07T09:00:21Z",
+      "stars": 4,
+      "note": "notes/2026-11-07_hUfToEMSFGY.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-11-07T23:38:58.634283+00:00"
+    },
+    "2lt4P_xGFL8": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Anthropic just built it...",
+      "channel": "Wes Roth",
+      "company": "",
+      "source": "discovery",
+      "query": "Anthropic Claude",
+      "views": 160496,
+      "duration_min": 41,
+      "published": "2026-11-06T14:35:24Z",
+      "stars": 3,
+      "note": "notes/2026-11-06_2lt4P_xGFL8.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-11-07T23:40:38.839550+00:00"
+    },
+    "i-wYjUriSzo": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Anthropic's RSI Breakthrough?! NEW Fable 5.5 Checkpoint, NEW GPT, DeepSeek Harness, & More! AI NEWS",
+      "channel": "WorldofAI",
+      "company": "",
+      "source": "discovery",
+      "query": "Anthropic Claude",
+      "views": 152863,
+      "duration_min": 34,
+      "published": "2026-11-03T08:12:32Z",
+      "stars": 4,
+      "note": "notes/2026-11-03_i-wYjUriSzo.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-11-07T23:42:13.725566+00:00"
     }
   },
   "api_hint": {
     "gemini-3.5-flash-lite": "interactions_full"
   },
   "usage": {
-    "date_pt": "2026-11-06",
-    "minutes": 150.56666666666666
+    "date_pt": "2026-11-07",
+    "minutes": 107.51666666666668
   },
-  "last_run": "2026-11-07T00:13:37.482662+00:00"
+  "last_run": "2026-11-07T23:42:13.727150+00:00"
 }
