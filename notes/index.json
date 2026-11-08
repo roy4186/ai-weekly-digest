@@ -1,5 +1,19 @@
 [
   {
+    "title": "【入門】MetaのAI秘書「Muse」がレベチすぎる…Museの使い方から他のAIにはない神機能までご紹介します",
+    "channel": "いまにゅのAIプログラミング塾",
+    "company": "other",
+    "published": "2026-11-08T09:00:32Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 26,
+    "views": 23904,
+    "stars": 4,
+    "note": "notes/2026-11-08_tjznqeuduAM.md",
+    "updated": "2026-11-08T23:43:25.688342+00:00",
+    "video_id": "tjznqeuduAM"
+  },
+  {
     "title": "【Grok Bot超入門】最新のAI秘書Grok Botを徹底解説！猛者が使うプロアクティブエージェントをご紹介します",
     "channel": "いまにゅのAIプログラミング塾",
     "company": "other",
@@ -82,6 +96,34 @@
     "note": "notes/2026-11-06_eG2sEzfG5OQ.md",
     "updated": "2026-11-07T00:07:15.901292+00:00",
     "video_id": "eG2sEzfG5OQ"
+  },
+  {
+    "title": "Uh, Google?",
+    "channel": "TechLinked",
+    "company": "",
+    "published": "2026-11-05T02:19:27Z",
+    "source": "discovery",
+    "query": "Google Gemini",
+    "duration_min": 11,
+    "views": 554433,
+    "stars": 3,
+    "note": "notes/2026-11-05_mdlLCkLx9BI.md",
+    "updated": "2026-11-08T23:46:07.050511+00:00",
+    "video_id": "mdlLCkLx9BI"
+  },
+  {
+    "title": "Please Never Use Google Search Again...",
+    "channel": "SomeOrdinaryGamers",
+    "company": "",
+    "published": "2026-11-04T23:03:58Z",
+    "source": "discovery",
+    "query": "Google Gemini",
+    "duration_min": 23,
+    "views": 589097,
+    "stars": 3,
+    "note": "notes/2026-11-05_YH_NwdtJepw.md",
+    "updated": "2026-11-08T23:44:49.809449+00:00",
+    "video_id": "YH_NwdtJepw"
   },
   {
     "title": "How I Get Claude To Edit My Videos (No Code Needed)",
