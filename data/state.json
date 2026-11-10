@@ -1641,14 +1641,78 @@
       "note": "notes/2026-11-05_mdlLCkLx9BI.md",
       "model": "gemini-3.5-flash-lite",
       "updated": "2026-11-08T23:46:07.050511+00:00"
+    },
+    "2TM8W66NI_8": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Claude Fable 5.2 Just Dropped. It’s the World’s Best AI.",
+      "channel": "Matt Wolfe",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 18626,
+      "duration_min": 21,
+      "published": "2026-11-09T23:16:34Z",
+      "stars": 4,
+      "note": "notes/2026-11-10_2TM8W66NI_8.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-11-10T02:45:04.285202+00:00"
+    },
+    "FNTz0CdqL6g": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "channel": "OpenAI",
+      "company": "openai",
+      "source": "channel",
+      "query": "",
+      "views": 92,
+      "duration_min": 3,
+      "published": "2026-11-10T02:41:23Z",
+      "stars": 4,
+      "note": "notes/2026-11-10_FNTz0CdqL6g.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-11-10T02:46:14.512174+00:00"
+    },
+    "9RW5KRCv55Q": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Anthropic Says It’s Close to the Last Invention",
+      "channel": "Dave Lee",
+      "company": "",
+      "source": "discovery",
+      "query": "Anthropic Claude",
+      "views": 205102,
+      "duration_min": 10,
+      "published": "2026-11-04T22:21:18Z",
+      "stars": 4,
+      "note": "notes/2026-11-05_9RW5KRCv55Q.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-11-10T02:46:45.340532+00:00"
+    },
+    "_K3kpcbQVdQ": {
+      "attempts": 0,
+      "status": "done",
+      "title": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
+      "channel": "Inteligencia Artificial",
+      "company": "",
+      "source": "discovery",
+      "query": "Google Gemini",
+      "views": 196270,
+      "duration_min": 37,
+      "published": "2026-11-02T19:00:32Z",
+      "stars": 4,
+      "note": "notes/2026-11-03__K3kpcbQVdQ.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-11-10T02:48:20.353456+00:00"
     }
   },
   "api_hint": {
     "gemini-3.5-flash-lite": "interactions_full"
   },
   "usage": {
-    "date_pt": "2026-11-08",
-    "minutes": 60.733333333333334
+    "date_pt": "2026-11-09",
+    "minutes": 70.41666666666667
   },
-  "last_run": "2026-11-08T23:46:07.051679+00:00"
+  "last_run": "2026-11-10T02:48:20.354902+00:00"
 }

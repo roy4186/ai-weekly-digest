@@ -1,5 +1,33 @@
 [
   {
+    "title": "Kuken Industries searches 70 years of drawings in minutes",
+    "channel": "OpenAI",
+    "company": "openai",
+    "published": "2026-11-10T02:41:23Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 3,
+    "views": 92,
+    "stars": 4,
+    "note": "notes/2026-11-10_FNTz0CdqL6g.md",
+    "updated": "2026-11-10T02:46:14.512174+00:00",
+    "video_id": "FNTz0CdqL6g"
+  },
+  {
+    "title": "Claude Fable 5.2 Just Dropped. It’s the World’s Best AI.",
+    "channel": "Matt Wolfe",
+    "company": "other",
+    "published": "2026-11-09T23:16:34Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 21,
+    "views": 18626,
+    "stars": 4,
+    "note": "notes/2026-11-10_2TM8W66NI_8.md",
+    "updated": "2026-11-10T02:45:04.285202+00:00",
+    "video_id": "2TM8W66NI_8"
+  },
+  {
     "title": "【入門】MetaのAI秘書「Muse」がレベチすぎる…Museの使い方から他のAIにはない神機能までご紹介します",
     "channel": "いまにゅのAIプログラミング塾",
     "company": "other",
@@ -126,6 +154,20 @@
     "video_id": "YH_NwdtJepw"
   },
   {
+    "title": "Anthropic Says It’s Close to the Last Invention",
+    "channel": "Dave Lee",
+    "company": "",
+    "published": "2026-11-04T22:21:18Z",
+    "source": "discovery",
+    "query": "Anthropic Claude",
+    "duration_min": 10,
+    "views": 205102,
+    "stars": 4,
+    "note": "notes/2026-11-05_9RW5KRCv55Q.md",
+    "updated": "2026-11-10T02:46:45.340532+00:00",
+    "video_id": "9RW5KRCv55Q"
+  },
+  {
     "title": "How I Get Claude To Edit My Videos (No Code Needed)",
     "channel": "Matt Wolfe",
     "company": "other",
@@ -208,6 +250,20 @@
     "note": "notes/2026-11-03_i-wYjUriSzo.md",
     "updated": "2026-11-07T23:42:13.725566+00:00",
     "video_id": "i-wYjUriSzo"
+  },
+  {
+    "title": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
+    "channel": "Inteligencia Artificial",
+    "company": "",
+    "published": "2026-11-02T19:00:32Z",
+    "source": "discovery",
+    "query": "Google Gemini",
+    "duration_min": 37,
+    "views": 196270,
+    "stars": 4,
+    "note": "notes/2026-11-03__K3kpcbQVdQ.md",
+    "updated": "2026-11-10T02:48:20.353456+00:00",
+    "video_id": "_K3kpcbQVdQ"
   },
   {
     "title": "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon",
