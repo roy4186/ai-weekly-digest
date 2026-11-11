@@ -1,5 +1,61 @@
 [
   {
+    "title": "Fable 5.2: The Self-Improvement Loop Keeps Loopin’ … (plus Gemini Carbon)",
+    "channel": "AI Explained",
+    "company": "other",
+    "published": "2026-11-10T23:11:36Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 32,
+    "views": 5928,
+    "stars": 4,
+    "note": "notes/2026-11-11_583ThJIqQ7k.md",
+    "updated": "2026-11-11T00:44:17.188176+00:00",
+    "video_id": "583ThJIqQ7k"
+  },
+  {
+    "title": "【速報】Claude Fable 5.2公開。世界No.1モデルは本当か？Opus 5.5・GPT-6・Gemini 4と4モデル対決したら意外な結果に。普段使いすべきか・エフォートの選び方まで解説",
+    "channel": "チャエン【AI研究所】〜仕事で使える最新のAI情報を発信〜 Byデジライズ",
+    "company": "other",
+    "published": "2026-11-10T22:28:37Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 15,
+    "views": 640,
+    "stars": 4,
+    "note": "notes/2026-11-11_LuSjeJqB0co.md",
+    "updated": "2026-11-11T00:42:20.109526+00:00",
+    "video_id": "LuSjeJqB0co"
+  },
+  {
+    "title": "Answering your questions about GPT-Live",
+    "channel": "OpenAI",
+    "company": "openai",
+    "published": "2026-11-10T21:10:08Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 9,
+    "views": 7061,
+    "stars": 5,
+    "note": "notes/2026-11-11_5YXlrzC_RYE.md",
+    "updated": "2026-11-11T00:41:49.206357+00:00",
+    "video_id": "5YXlrzC_RYE"
+  },
+  {
+    "title": "【最新のスキルも網羅】Geminiが120%覚醒する設定ガイド",
+    "channel": "SHIFT AI ニュース",
+    "company": "other",
+    "published": "2026-11-10T08:30:01Z",
+    "source": "channel",
+    "query": "",
+    "duration_min": 16,
+    "views": 4379,
+    "stars": 4,
+    "note": "notes/2026-11-10_C5XozDsxSak.md",
+    "updated": "2026-11-11T00:40:36.423101+00:00",
+    "video_id": "C5XozDsxSak"
+  },
+  {
     "title": "Kuken Industries searches 70 years of drawings in minutes",
     "channel": "OpenAI",
     "company": "openai",
@@ -26,6 +82,20 @@
     "note": "notes/2026-11-10_2TM8W66NI_8.md",
     "updated": "2026-11-10T02:45:04.285202+00:00",
     "video_id": "2TM8W66NI_8"
+  },
+  {
+    "title": "Anthropic has just DROPPED A NUKE! (Fable 5.2)",
+    "channel": "Nick Saraev",
+    "company": "",
+    "published": "2026-11-09T20:25:37Z",
+    "source": "discovery",
+    "query": "Anthropic Claude",
+    "duration_min": 8,
+    "views": 388772,
+    "stars": 4,
+    "note": "notes/2026-11-10_foCBPrpbO68.md",
+    "updated": "2026-11-11T00:45:32.197461+00:00",
+    "video_id": "foCBPrpbO68"
   },
   {
     "title": "【入門】MetaのAI秘書「Muse」がレベチすぎる…Museの使い方から他のAIにはない神機能までご紹介します",
@@ -222,6 +292,20 @@
     "note": "notes/2026-11-04_TjPPIf-M6KE.md",
     "updated": "2026-11-05T00:59:50.570728+00:00",
     "video_id": "TjPPIf-M6KE"
+  },
+  {
+    "title": "ChatGPT Wants Your PC",
+    "channel": "Zack Shutt",
+    "company": "",
+    "published": "2026-11-03T14:52:48Z",
+    "source": "discovery",
+    "query": "OpenAI ChatGPT",
+    "duration_min": 24,
+    "views": 266033,
+    "stars": 4,
+    "note": "notes/2026-11-03_Kbyk3-3x4Vc.md",
+    "updated": "2026-11-11T00:55:51.784946+00:00",
+    "video_id": "Kbyk3-3x4Vc"
   },
   {
     "title": "【人材大量解雇】中国AIウラ事情に精通する男からタレコミ。今中国で起こる\"リアル\"な格差とは？",
