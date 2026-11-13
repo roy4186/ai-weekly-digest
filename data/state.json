@@ -1961,6 +1961,112 @@
       "note": "notes/2026-11-11_7LLCexpekZI.md",
       "model": "gemini-3.5-flash-lite",
       "updated": "2026-11-12T02:20:33.752356+00:00"
+    },
+    "u9PqpLEWgro": {
+      "attempts": 1,
+      "title": "【マジ神】MetaのAI秘書「Muse」教科書｜最強活用法~重要な設定まで徹底解説",
+      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
+      "updated": "2026-11-13T01:12:17.837372+00:00",
+      "status": "failed"
+    },
+    "1tsV9RcABCo": {
+      "attempts": 1,
+      "title": "Fable 5.2は最強モデル？最新アプデで追加されたClaude最新モデルを徹底検証してOpus 5.5などと比較します！",
+      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
+      "updated": "2026-11-13T01:19:14.029780+00:00",
+      "status": "failed"
+    },
+    "SKmlWrTq-a8": {
+      "attempts": 1,
+      "title": "【中国ロボット薬局の実態】フィジカルAI最前線。GALBOTは実店舗で実注文／アント系Robbyantの模擬薬局／AGIBOT売店はロボが店番／穹徹智能・Flexiv【中国出張 後編】",
+      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
+      "updated": "2026-11-13T01:28:04.780158+00:00",
+      "status": "failed"
+    },
+    "pvl3z_GyU2Y": {
+      "attempts": 1,
+      "title": "How To Build An AI Operating System For Your Life",
+      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
+      "updated": "2026-11-13T01:35:13.960507+00:00",
+      "status": "failed"
+    },
+    "uND6iY2qp_c": {
+      "attempts": 1,
+      "title": "AlphaGenome 2: Teaching AI to read the entire human genome",
+      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
+      "updated": "2026-11-13T01:43:38.170215+00:00",
+      "status": "failed"
+    },
+    "hUhr0JiVZZs": {
+      "attempts": 0,
+      "status": "done",
+      "title": "How to run your first Codex Security scan",
+      "channel": "OpenAI",
+      "company": "openai",
+      "source": "channel",
+      "query": "",
+      "views": 26009,
+      "duration_min": 7,
+      "published": "2026-11-11T21:10:05Z",
+      "stars": 4,
+      "note": "notes/2026-11-12_hUhr0JiVZZs.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-11-13T01:44:48.466907+00:00"
+    },
+    "vdBDMj2UhDg": {
+      "attempts": 0,
+      "status": "done",
+      "title": "How to enable PR security reviews with Codex Security",
+      "channel": "OpenAI",
+      "company": "openai",
+      "source": "channel",
+      "query": "",
+      "views": 2633,
+      "duration_min": 7,
+      "published": "2026-11-11T21:10:24Z",
+      "stars": 4,
+      "note": "notes/2026-11-12_vdBDMj2UhDg.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-11-13T01:45:10.251498+00:00"
+    },
+    "NS220dAaRMo": {
+      "attempts": 0,
+      "status": "done",
+      "title": "How to request and enable Daybreak Blue",
+      "channel": "OpenAI",
+      "company": "openai",
+      "source": "channel",
+      "query": "",
+      "views": 6563,
+      "duration_min": 6,
+      "published": "2026-11-11T21:10:28Z",
+      "stars": 4,
+      "note": "notes/2026-11-12_NS220dAaRMo.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-11-13T01:45:31.688657+00:00"
+    },
+    "vlfCjWuv4es": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
+      "channel": "AI Engineer",
+      "company": "",
+      "source": "discovery",
+      "query": "Anthropic Claude",
+      "views": 299069,
+      "duration_min": 18,
+      "published": "2026-11-12T03:26:55Z",
+      "stars": 5,
+      "note": "notes/2026-11-12_vlfCjWuv4es.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-11-13T01:45:57.188569+00:00"
+    },
+    "0vNyVMDFdkg": {
+      "attempts": 1,
+      "title": "Fable 5.2 is ridiculous",
+      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
+      "updated": "2026-11-13T01:53:48.545437+00:00",
+      "status": "failed"
     }
   },
   "api_hint": {
@@ -1969,8 +2075,8 @@
     "gemini-3.6-flash": "interactions_full"
   },
   "usage": {
-    "date_pt": "2026-11-11",
-    "minutes": 205.16666666666666
+    "date_pt": "2026-11-12",
+    "minutes": 36.650000000000006
   },
-  "last_run": "2026-11-12T02:20:33.753974+00:00"
+  "last_run": "2026-11-13T01:53:48.547932+00:00"
 }
