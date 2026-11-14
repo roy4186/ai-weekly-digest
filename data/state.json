@@ -1965,37 +1965,82 @@
     "u9PqpLEWgro": {
       "attempts": 1,
       "title": "【マジ神】MetaのAI秘書「Muse」教科書｜最強活用法~重要な設定まで徹底解説",
-      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
-      "updated": "2026-11-13T01:12:17.837372+00:00",
-      "status": "failed"
+      "updated": "2026-11-14T00:54:09.600402+00:00",
+      "status": "done",
+      "channel": "SHIFT AI ニュース",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 25005,
+      "duration_min": 21,
+      "published": "2026-11-11T08:30:05Z",
+      "stars": 5,
+      "note": "notes/2026-11-11_u9PqpLEWgro.md",
+      "model": "gemini-3.5-flash-lite"
     },
     "1tsV9RcABCo": {
       "attempts": 1,
       "title": "Fable 5.2は最強モデル？最新アプデで追加されたClaude最新モデルを徹底検証してOpus 5.5などと比較します！",
-      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
-      "updated": "2026-11-13T01:19:14.029780+00:00",
-      "status": "failed"
+      "updated": "2026-11-14T00:54:36.481656+00:00",
+      "status": "done",
+      "channel": "いまにゅのAIプログラミング塾",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 19060,
+      "duration_min": 26,
+      "published": "2026-11-11T09:00:33Z",
+      "stars": 4,
+      "note": "notes/2026-11-11_1tsV9RcABCo.md",
+      "model": "gemini-3.5-flash-lite"
     },
     "SKmlWrTq-a8": {
       "attempts": 1,
       "title": "【中国ロボット薬局の実態】フィジカルAI最前線。GALBOTは実店舗で実注文／アント系Robbyantの模擬薬局／AGIBOT売店はロボが店番／穹徹智能・Flexiv【中国出張 後編】",
-      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
-      "updated": "2026-11-13T01:28:04.780158+00:00",
-      "status": "failed"
+      "updated": "2026-11-14T00:55:54.467923+00:00",
+      "status": "done",
+      "channel": "チャエン【AI研究所】〜仕事で使える最新のAI情報を発信〜 Byデジライズ",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 2782,
+      "duration_min": 32,
+      "published": "2026-11-11T09:17:36Z",
+      "stars": 4,
+      "note": "notes/2026-11-11_SKmlWrTq-a8.md",
+      "model": "gemini-3.5-flash-lite"
     },
     "pvl3z_GyU2Y": {
       "attempts": 1,
       "title": "How To Build An AI Operating System For Your Life",
-      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
-      "updated": "2026-11-13T01:35:13.960507+00:00",
-      "status": "failed"
+      "updated": "2026-11-14T00:57:10.439141+00:00",
+      "status": "done",
+      "channel": "Matt Wolfe",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 84975,
+      "duration_min": 28,
+      "published": "2026-11-11T16:00:07Z",
+      "stars": 5,
+      "note": "notes/2026-11-12_pvl3z_GyU2Y.md",
+      "model": "gemini-3.5-flash-lite"
     },
     "uND6iY2qp_c": {
       "attempts": 1,
       "title": "AlphaGenome 2: Teaching AI to read the entire human genome",
-      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
-      "updated": "2026-11-13T01:43:38.170215+00:00",
-      "status": "failed"
+      "updated": "2026-11-14T01:08:16.346437+00:00",
+      "status": "done",
+      "channel": "Google DeepMind",
+      "company": "google",
+      "source": "channel",
+      "query": "",
+      "views": 78939,
+      "duration_min": 40,
+      "published": "2026-11-11T18:00:31Z",
+      "stars": 4,
+      "note": "notes/2026-11-12_uND6iY2qp_c.md",
+      "model": "gemini-3.8-flash"
     },
     "hUhr0JiVZZs": {
       "attempts": 0,
@@ -2063,10 +2108,83 @@
     },
     "0vNyVMDFdkg": {
       "attempts": 1,
-      "title": "Fable 5.2 is ridiculous",
-      "last_error": "gemini-3.6-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
-      "updated": "2026-11-13T01:53:48.545437+00:00",
-      "status": "failed"
+      "title": "Fable 5.2 solved all software...",
+      "updated": "2026-11-14T01:38:32.909498+00:00",
+      "status": "done",
+      "channel": "Matthew Berman",
+      "company": "",
+      "source": "discovery",
+      "query": "Anthropic Claude",
+      "views": 303419,
+      "duration_min": 24,
+      "published": "2026-11-09T19:02:56Z",
+      "stars": 5,
+      "note": "notes/2026-11-10_0vNyVMDFdkg.md",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "YmxpxJZvm4M": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Cyber at the Frontier: Introducing Daybreak Red Team & Daybreak Defense Factory",
+      "channel": "OpenAI",
+      "company": "openai",
+      "source": "channel",
+      "query": "",
+      "views": 39717,
+      "duration_min": 35,
+      "published": "2026-11-12T22:37:14Z",
+      "stars": 5,
+      "note": "notes/2026-11-13_YmxpxJZvm4M.md",
+      "model": "gemini-3.8-flash",
+      "updated": "2026-11-14T01:19:13.985966+00:00"
+    },
+    "Sn8jd5Ufy2U": {
+      "attempts": 0,
+      "status": "done",
+      "title": "【探す必要なし】Claude Codeが公式スキルを自動厳選してAI社員を作成",
+      "channel": "SHIFT AI ニュース",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 2989,
+      "duration_min": 15,
+      "published": "2026-11-13T08:30:28Z",
+      "stars": 4,
+      "note": "notes/2026-11-13_Sn8jd5Ufy2U.md",
+      "model": "gemini-3.5-flash-lite",
+      "updated": "2026-11-14T01:20:32.314731+00:00"
+    },
+    "TYpRnue8sKc": {
+      "attempts": 0,
+      "status": "done",
+      "title": "【超簡単】Museをプロ級に使いこなすために知るべき神機能5選！知らずに使っていない人は損してます…",
+      "channel": "いまにゅのAIプログラミング塾",
+      "company": "other",
+      "source": "channel",
+      "query": "",
+      "views": 18655,
+      "duration_min": 27,
+      "published": "2026-11-13T09:00:24Z",
+      "stars": 4,
+      "note": "notes/2026-11-13_TYpRnue8sKc.md",
+      "model": "gemini-3.8-flash",
+      "updated": "2026-11-14T01:30:41.729583+00:00"
+    },
+    "GipTWtfaiLs": {
+      "attempts": 0,
+      "status": "done",
+      "title": "Claude Fable 5.2 Just Changed Everything",
+      "channel": "TheAIGRID",
+      "company": "",
+      "source": "discovery",
+      "query": "Anthropic Claude",
+      "views": 317870,
+      "duration_min": 30,
+      "published": "2026-11-10T11:30:05Z",
+      "stars": 5,
+      "note": "notes/2026-11-10_GipTWtfaiLs.md",
+      "model": "gemini-3.6-flash",
+      "updated": "2026-11-14T01:37:15.723505+00:00"
     }
   },
   "api_hint": {
@@ -2075,8 +2193,8 @@
     "gemini-3.6-flash": "interactions_full"
   },
   "usage": {
-    "date_pt": "2026-11-12",
-    "minutes": 36.650000000000006
+    "date_pt": "2026-11-13",
+    "minutes": 278.3333333333333
   },
-  "last_run": "2026-11-13T01:53:48.547932+00:00"
+  "last_run": "2026-11-14T01:38:32.911218+00:00"
 }
